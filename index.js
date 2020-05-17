@@ -4791,10 +4791,13 @@ client.on('message', (msg) => {
         return msg.channel.send("<@&711321641166307399>  Hey, look at that! A tier 6 spawned! Go get it!");} 
       //console.log("WE HAVE A PROBLEM!!!");// if there are no embeds, this code won't run.
         });
-    }
+    } 
     
 });
-const token= process.env.token;
-
-client.login(token);    
+//const token= env.token;
+//const{config}=require("dotenv")l;
+config ({
+  path: __dirname + "/.env"
+});
+client.login(process.env.TOKEN);    
 
