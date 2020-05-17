@@ -4794,7 +4794,7 @@ client.on('message', (msg) => {
     }
     
 });
+const token= process.env.token;
 
-
-client.login(process.token);    
+client.login(token);    
 
