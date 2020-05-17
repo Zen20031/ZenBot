@@ -1,1 +1,1 @@
-worker: node ZenBot
+worker: node index.js
