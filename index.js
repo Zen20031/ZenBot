@@ -4514,54 +4514,10 @@ break;
 
 
 
-client.on("message",message=>{
-if(message.channel.id==="700363955213959178")
-{
-  if((message.author.id==="673362753489993749") && (message.content.includes("To claim,")))
-  console.log("a dat carte");
-}
-});
-
 
 
 /*
-client.on("message",message=>{
-  if(message.channel.id==="703334574213824556")
-  {
-    if((message.author.id==="710440020674347109") && (message.content.includes("Java")))
-    console.log("Pana acum e ok");
-  }
-  });
 
-  client.on('message', message => {
-  
-      if((message.author.id==="710440020674347109") &&(message.channel.id==="703334574213824556"))
-      {
-    for (let embed of message.embeds) { // these are some of the properties
-      console.log(`
-      Title: ${embed.title}
-      Author: ${embed.author}
-      Description: ${embed.description}
-      `);
-      for (let field of embed.field) {
-        console.log(`
-        Field title: ${field.name}
-        Field value: ${field.value}
-        `);
-      }
-    }
-    }
-  });
-*/
- /* if(msg.channel.id==="703294913986560064"){
-    msg.embeds.forEach((embeds) => {
-      if(msg.embeds[0].title.includes('undefined'))
-        {console.log("ok")} 
-      else 
-        msg.channel.send(`<@710527033255395399>`);
-     //@Cavemen t5/6
-        });
-    }*/
     const cardid = new Set();
   client.on('message', (message) => {
     if(message.content.startsWith("Zen!spawnlogs"))
@@ -4591,53 +4547,52 @@ client.on("message",message=>{
       });
     }
 
-}); 
+}); */
+
+
 client.on('message', (msg) => {
-  //if(msg.channel.id==="703294913986560064"){
-  if(msg.content==="!Zenn")
-      msg.channel.send("<:pog:699999258547322950>");
-  //}
+  
 });
-/////SERVER 1
+/////SERVER 1  
+let tier=0;
 client.on('message', (msg) => {
   if((msg.channel.id==="700363955213959178") && (msg.author.id==="673362753489993749")){
   msg.embeds.forEach((embed) => {
+    let uu=1;
     let x='710560610277916682';
     if(typeof msg.embeds[0].title==='undefined')
-    {return console.log("Another card spawned 1");}
-    /*if(msg.embeds[0].title.includes('Tier: 1'))
-    {const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
-      .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
-      .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#eb4034')
-      return  client.channels.cache.get(x).send(r);}
-    */
+    {
+     return  console.log("ok");
+    }
+    if(msg.embeds[0].title.includes('Tier: 1'))
+    { 
+     tier=1;
+    }
+    
    if(msg.embeds[0].title.includes('Tier: 2'))
-    {const r= new MessageEmbed()
+    {
+      tier=2;
+      const r= new MessageEmbed()
       .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
       .setTimestamp()
       .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
         .setColor('#ccff66')
         return  client.channels.cache.get(x).send(r);}
      if(msg.embeds[0].title.includes('Tier: 3'))
-     {const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
+     { tier=3;
+       const r= new MessageEmbed()
+      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)     
       .setTimestamp()
       .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
         .setColor('#ffcc00')
         return  client.channels.cache.get(x).send(r);}
      if(msg.embeds[0].title.includes('Tier: 4'))
-     {console.log(`${msg.embeds[0].title} in server 1`)
+     {tier=4;
+       console.log(`${msg.embeds[0].title} in server 1`)
        const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
+      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,) 
       .setTimestamp()
       .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
@@ -4646,10 +4601,9 @@ client.on('message', (msg) => {
        // return msg.channel.send("<@&710524640161955840> **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>")
       }
     if(msg.embeds[0].title.includes('Tier: 5'))
-     {
+     {tier=5;
       const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
+      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)     
       .setTimestamp()
       .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
@@ -4658,9 +4612,9 @@ client.on('message', (msg) => {
         console.log(`${msg.embeds[0].title} in server 1`)
         return msg.channel.send("<@&710524640161955840>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")} 
     if(msg.embeds[0].title.includes('Tier: 6'))
-    { const r= new MessageEmbed()
+    { tier=6;
+      const r= new MessageEmbed()
       .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
       .setTimestamp()
       .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
@@ -4739,7 +4693,7 @@ client.on('message', (msg) => {
         client.channels.cache.get(x).send(r);*/
         
         console.log(`${msg.embeds[0].title} in server 2`)
-        return msg.channel.send("<@&707008540530966578>  **E B I C** tier 3 spawned, go get it!");  
+        return msg.channel.send("<@&707008540530966578>  **E B I C** tier 5 spawned, go get it!");  
       } 
     if(msg.embeds[0].title.includes('Tier: 6'))
     { const r= new MessageEmbed()
@@ -4751,7 +4705,7 @@ client.on('message', (msg) => {
         .setColor('#800000')
         client.channels.cache.get(x).send(r);
       console.log(`${msg.embeds[0].title} in server 2`)
-      return msg.channel.send("<@&707008540530966578>  **E B I C** tier 3 spawned, go get it!");} 
+      return msg.channel.send("<@&707008540530966578>  **E B I C** tier 6 spawned, go get it!");} 
     //console.log("WE HAVE A PROBLEM!!!");// if there are no embeds, this code won't run.
       });
   }
