@@ -4796,5 +4796,5 @@ client.on('message', (msg) => {
 });
 
 
-client.login(procces.env.token);    
+client.login("NzEwNDQwMDIwNjc0MzQ3MTA5.XsD0xQ.I-Mp8h5WMXaB6T-SFFJhRmAyN8c");    
 
