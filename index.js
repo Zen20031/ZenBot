@@ -4549,76 +4549,159 @@ break;
 
 }); */
 
-
+const preffs=":green:";
 client.on('message', (msg) => {
-  
+  if(msg.content.startsWith(":green:"))
+  {let argsst = msg.content.substring(preffs.length).split(" ");
+  msg.channel.send(argsst[1]);
+}
+if(msg.content.startsWith("test 2"))
+      {//const stsr = msg.embeds[0].description;
+        let idbest=msg.author.id;       
+        const User = Client.User(idbest);
+        console.log(User); 
+        msg.channel.seng(User);
+       //client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}|| test his nickname is ${User}`);
+        //let tttt=msg.embeds[0].description;
+       //tier=0;
+      }
 });
 /////SERVER 1  
+let namesss;
 let tier=0;
 client.on('message', (msg) => {
   if((msg.channel.id==="700363955213959178") && (msg.author.id==="673362753489993749")){
   msg.embeds.forEach((embed) => {
-    let uu=1;
-    let x='710560610277916682';
+    let p='711680724192985108';
+    let x='711668385540472912';
     if(typeof msg.embeds[0].title==='undefined')
-    {
-     return  console.log("ok");
-    }
-    if(msg.embeds[0].title.includes('Tier: 1'))
     { 
+      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      {
+      if(tier===1)
+      {const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);       
+        //const User = Client.User(idbest);
+        //console.log(User); 
+        client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
+        let tttt=msg.embeds[0].description;
+       tier=0;
+      }
+      if(tier===2)
+      {const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);        
+        console.log(idbest);
+         tier=0;
+         client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
+         //const User = Client.User(idbest);
+        //console.log(User); 
+      
+        }
+        if(tier===3)
+      {const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);        
+        console.log(idbest);        
+         tier=0;
+         client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
+         
+  
+      
+        }
+        if(tier===4)
+      {const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);        
+        console.log(idbest);     
+         tier=0;
+         client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
+       
+
+      
+        }
+        if(tier===5)
+      {const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);        
+        console.log(idbest);      
+           tier=0;
+         client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);  
+        
+       
+        }
+        if(tier===6)
+        {const stsr = msg.embeds[0].description;
+          let idbest=stsr.substring(31, 49);        
+          console.log(idbest);
+           tier=0;
+           client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`); 
+        
+       
+          }
+    } 
+         return console.log("not my buisines!");
+    }
+
+
+//logs!!!
+    if(msg.embeds[0].title.includes('Tier: 1'))
+    { namess=msg.embeds[0].title;
      tier=1;
+     const r= new MessageEmbed()
+     .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+     .setTimestamp()
+     .setDescription(`*${msg.embeds[0].title} has spawned!*`)
+     .setFooter(`Server name: ${msg.guild.name}`)
+       .setColor('#f2f2f2')
+       client.channels.cache.get(x).send(r);
     }
     
    if(msg.embeds[0].title.includes('Tier: 2'))
-    {
+    { namess=msg.embeds[0].title;
       tier=2;
       const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
       .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
+      .setDescription(`*${msg.embeds[0].title} has spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#ccff66')
+        .setColor('#33cc33')
         return  client.channels.cache.get(x).send(r);}
      if(msg.embeds[0].title.includes('Tier: 3'))
-     { tier=3;
+     { tier=3;namess=msg.embeds[0].title;
        const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)     
+       .setAuthor(`${msg.author.username}`,msg.author.avatarURL())     
       .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
+      .setDescription(`*${msg.embeds[0].title} has spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#ffcc00')
+        .setColor('#0099ff')
         return  client.channels.cache.get(x).send(r);}
      if(msg.embeds[0].title.includes('Tier: 4'))
-     {tier=4;
+     {tier=4;namess=msg.embeds[0].title;
        console.log(`${msg.embeds[0].title} in server 1`)
        const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,) 
+       .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
       .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
+      .setDescription(`*${msg.embeds[0].title} has spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#ff6600')
+        .setColor('#cc00ff')
         return client.channels.cache.get(x).send(r);
-       // return msg.channel.send("<@&710524640161955840> **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>")
       }
     if(msg.embeds[0].title.includes('Tier: 5'))
-     {tier=5;
+     {tier=5;namess=msg.embeds[0].title;
       const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)     
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())    
       .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
+      .setDescription(`*${msg.embeds[0].title} has spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#eb4034')
+        .setColor('#ffff00')
         client.channels.cache.get(x).send(r);
         console.log(`${msg.embeds[0].title} in server 1`)
         return msg.channel.send("<@&710524640161955840>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")} 
     if(msg.embeds[0].title.includes('Tier: 6'))
-    { tier=6;
+    { tier=6;namess=msg.embeds[0].title;
       const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
       .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
+      .setDescription(`*${msg.embeds[0].title} has spawned!*`)
       .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#800000')
+        .setColor('#ff0000')
         client.channels.cache.get(x).send(r);
       console.log(`${msg.embeds[0].title} in server 1`)
       return msg.channel.send("<@&710524640161955840> **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>")} 
@@ -4636,77 +4719,28 @@ client.on('message', (msg) => {
     if(typeof msg.embeds[0].title==='undefined')
     {return console.log("Another card spawned 2");}
     if(msg.embeds[0].title.includes('Tier: 1'))
-    {/*const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-      .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
-      .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#eb4034')
-      client.channels.cache.get(x).send(r);
-      *///return msg.channel.send("<@&707008540530966578>  **E B I C** tier 1 spawned, go get it!")
+    {
     } 
-    
-    
    if(msg.embeds[0].title.includes('Tier: 2'))
-    {/*const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-      .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
-      .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#ccff66')
-        
-        client.channels.cache.get(x).send(r);*/
-        //return msg.channel.send("<@&707008540530966578>  **E B I C** tier 2 spawned, go get it!")
+    {
       }
         if(msg.embeds[0].title.includes('Tier: 3'))
-     {const r= new MessageEmbed()
-      /*.setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
-      .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
-      .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#ffcc00')
-        client.channels.cache.get(x).send(r);
-        *///return msg.channel.send("<@&707008540530966578>  **E B I C** tier 3 spawned, go get it!");
+     {
       }
      if(msg.embeds[0].title.includes('Tier: 4'))
-     {/*const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
-      .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
-      .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#ff6600')
-     return  client.channels.cache.get(x).send(r);*/
+     {
      console.log(`${msg.embeds[0].title} in server 2`)
      return msg.channel.send("<@&707008540530966578>  **E B I C** tier 4 spawned, go get it!")
     }
     if(msg.embeds[0].title.includes('Tier: 5'))
      {
-      /*const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
-      .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
-      .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#eb4034')
-        client.channels.cache.get(x).send(r);*/
-        
         console.log(`${msg.embeds[0].title} in server 2`)
         return msg.channel.send("<@&707008540530966578>  **E B I C** tier 5 spawned, go get it!");  
       } 
     if(msg.embeds[0].title.includes('Tier: 6'))
-    { const r= new MessageEmbed()
-      .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
-          
-      .setTimestamp()
-      .setDescription(`*${msg.embeds[0].title} has been spawned!*`)
-      .setFooter(`Server name: ${msg.guild.name}`)
-        .setColor('#800000')
-        client.channels.cache.get(x).send(r);
+    { 
       console.log(`${msg.embeds[0].title} in server 2`)
       return msg.channel.send("<@&707008540530966578>  **E B I C** tier 6 spawned, go get it!");} 
-    //console.log("WE HAVE A PROBLEM!!!");// if there are no embeds, this code won't run.
       });
   }
 
@@ -4750,6 +4784,98 @@ client.on('message', (msg) => {
 });
 //const token= env.token;
 //const{config}=require("dotenv")l;
+
+
+client.on('message', (msg) => {
+  if(msg.content==='zt6')
+  {const r= new MessageEmbed()
+    .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
+    .setTimestamp()
+    .setDescription(`test tier 6`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#ff0000')
+      msg.channel.send(r);
+      
+  } 
+  if(msg.content==='zt5')
+  {const r= new MessageEmbed()
+    .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
+    .setTimestamp()
+    .setDescription(`test tier 5`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#ffff00')
+      msg.channel.send(r);
+      
+  }
+  if(msg.content==='zt4')
+  {const r= new MessageEmbed()
+    .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
+    .setTimestamp()
+    .setDescription(`test tier 4`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#cc00ff')
+      msg.channel.send(r);
+  }
+  if(msg.content==='zt3')
+  {const r= new MessageEmbed()
+    .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
+    .setTimestamp()
+    .setDescription(`test tier 3`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#0099ff')
+      msg.channel.send(r);
+      
+  }
+  if(msg.content==='zt2')
+  {const r= new MessageEmbed()
+    .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
+    .setTimestamp()
+    .setDescription(`test tier 2`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#33cc33')
+      msg.channel.send(r);
+      
+  }
+  if(msg.content==='zt1')
+  {const r= new MessageEmbed()
+    .setAuthor('ZenBot',`https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png`,)
+    .setTimestamp()
+    .setDescription(`test tier 1`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#f2f2f2')
+      msg.channel.send(r);
+      
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+client.on('message', (message) => {
+if(message.content.startsWith("Zen!name"))
+{ let pre="Zen!name";
+  let args = message.content.substring(pre.length).split(" ");
+  let text = args.join(" ");
+  message.guild.members.cache.get(client.user.id).setNickname(text);
+  console.log(text);
+}
+/*if(message.content.startsWith("Zen!myname"))
+{ let pre="Zen!myname";
+  let args = message.content.substring(pre.length).split(" ");
+  let text = args.join(" ");
+  message.guild.members.cache.get(message.author.id).setNickname(text);
+  console.log(text);
+}*/
+});
+
+
 config ({
   path: __dirname + "/.env"
 });
