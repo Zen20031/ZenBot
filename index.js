@@ -4866,8 +4866,11 @@ if(message.content.startsWith("Zen!name"))
   message.guild.members.cache.get(client.user.id).setNickname(text);
   console.log(text);
 }
-/*if(message.content.startsWith("Zen!myname"))
-{ let pre="Zen!myname";
+/*if(message.content.startsWith("Zen!test1"))
+{ let username = client.user.get(message.author.id).username;
+  console.log(username);
+  let id = client.user.find('name', 'name here').id;
+  let pre="Zen!myname";
   let args = message.content.substring(pre.length).split(" ");
   let text = args.join(" ");
   message.guild.members.cache.get(message.author.id).setNickname(text);
