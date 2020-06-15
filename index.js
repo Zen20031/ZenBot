@@ -476,7 +476,6 @@ client.on('message', async msg => {
             });
         }
 }
-
 });
 
 
