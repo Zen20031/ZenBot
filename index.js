@@ -2708,7 +2708,7 @@ client.msgggggggs = require ("./kiatsu11.json");
 client.msrrrrrrrs = require ("./kiatsu11lb.json");
 //let tiiier=0;
 client.on('message', async msg => {
-    if(msg.channel.id==="694411103782043688")
+    if(msg.channel.id==="722544887375069235")
     {   
         if(typeof client.msgggggggs[msg.author.id]==="undefined")
     {
@@ -2726,7 +2726,7 @@ client.on('message', async msg => {
         });
     }
    
-    if((msg.channel.id==="694411103782043688") && (msg.author.id==="673362753489993749")){  
+    if((msg.channel.id==="722544887375069235") && (msg.author.id==="673362753489993749")){  
     msg.embeds.forEach((embed) => {
     if(typeof msg.embeds[0].title==='undefined')
     { 
