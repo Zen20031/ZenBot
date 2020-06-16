@@ -4471,7 +4471,7 @@ client.on('message', async msg => {
 
 
 
-//msgggggggggggs nefolosit!!!!
+
 
 /////SERVER ??? Ruina 
 //const fssr = require("fs");
@@ -4531,7 +4531,7 @@ client.on('message', async msg => {
         fssr.writeFile ("./ZenBot/Ruina.json",JSON.stringify(client.msgggggggggggs, null, 4),err=>{
             if(err) throw err;
         });
-        client.msgggggggggggs [idbest].tier7=client.msgggggggggggs [idbest].tier1+client.msgggggggggggs [idbest].tier2+client.msgggggggggggs [idbest].tier3+client.msgggggggggggs [idbest].tier4+client.msggggggggs [idbest].tier5+ client.msgggggggggggs[idbest].tier6;
+        client.msgggggggggggs [idbest].tier7=client.msgggggggggggs [idbest].tier1+client.msgggggggggggs [idbest].tier2+client.msgggggggggggs [idbest].tier3+client.msgggggggggggs [idbest].tier4+client.msgggggggggggs [idbest].tier5+ client.msgggggggggggs[idbest].tier6;
         fssr.writeFile ("./ZenBot/Ruina.json",JSON.stringify(client.msgggggggggggs, null, 4),err=>{
             if(err) throw err;
         });
@@ -4859,7 +4859,7 @@ client.on('message', async msg => {
 
       if((msg.content==="Zen!lb")||(msg.content==="zen!lb"))
       {msg.delete();
-          let board = Object.entries(client.msggggggggggs)
+          let board = Object.entries(client.msgggggggggggs)
                .map(([key, val]) => ({id: key, ...val}))
                .sort((a, b) => b.tier7 - a.tier7);
       client.msrrrrrrrrrrrs=board;
@@ -4914,9 +4914,8 @@ client.on('message', async msg => {
 
 
 
-
 /////SERVER ??? Game Hub 
-//const fssr = require("fs");
+//const fssr = require("fs");asdasdasd
 client.msggggggggggggs = require ("./Hub.json");
 //const rssr = require("fs");
 client.msrrrrrrrrrrrrs = require ("./Hublb.json");
@@ -5349,6 +5348,451 @@ client.on('message', async msg => {
 
 
 
+
+
+
+
+
+
+
+/////SERVER 19 AnimeMemesSekai
+//const fssr = require("fs");
+client.msgggggggggggggs = require ("./Sekai.json");
+//const rssr = require("fs");
+client.msrrrrrrrrrrrrrs = require ("./Sekailb.json");
+let tiiiiiiiier=0;
+client.on('message', async msg => {
+    if(msg.channel.id==="708259848407744512")
+    {   
+        if(typeof client.msgggggggggggggs[msg.author.id]==="undefined")
+    {
+        client.msgggggggggggggs [msg.author.id]={
+            tier1 : 0,
+            tier2 : 0,
+            tier3 : 0,
+            tier4 : 0,
+            tier5 : 0,
+            tier6 : 0,
+            tier7 : 0
+        }
+        fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+    }
+   
+    if((msg.channel.id==="708259848407744512") && (msg.author.id==="673362753489993749")){  
+    msg.embeds.forEach((embed) => {
+    if(typeof msg.embeds[0].title==='undefined')
+    { 
+      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      {
+      if(tiiiiiiiier===1)
+      {const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);//ala care a luat      
+        //const User = Client.User(idbest);
+        //console.log(User); 
+        client.msgggggggggggggs [idbest].tier1++;
+        fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+        client.msgggggggggggggs [idbest].tier7=client.msgggggggggggggs [idbest].tier1+client.msgggggggggggggs [idbest].tier2+client.msgggggggggggggs [idbest].tier3+client.msgggggggggggggs [idbest].tier4+client.msgggggggggggggs [idbest].tier5+client.msgggggggggggggs [idbest].tier6;
+           fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+        //client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
+        let tttt=msg.embeds[0].description;
+        tiiiiiiiier=0;
+      }
+      if(tiiiiiiiier===2)
+      {
+          const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);        
+        //console.log(idbest);
+        tiiiiiiiier=0;
+         client.msgggggggggggggs [idbest].tier2++;
+        fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+        client.msgggggggggggggs [idbest].tier7=client.msgggggggggggggs [idbest].tier1+client.msgggggggggggggs [idbest].tier2+client.msgggggggggggggs [idbest].tier3+client.msgggggggggggggs [idbest].tier4+client.msgggggggggggggs [idbest].tier5+ client.msgggggggggggggs[idbest].tier6;
+        fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+        // client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
+         //const User = Client.User(idbest);
+        //console.log(User); 
+      
+        }
+        if(tiiiiiiiier===3)
+      {
+          const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);        
+        //console.log(idbest);        
+         tier=0;
+         client.msgggggggggggggs [idbest].tier3++;
+        fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+        client.msgggggggggggggs [idbest].tier7=client.msgggggggggggggs [idbest].tier1+client.msgggggggggggggs [idbest].tier2+client.msgggggggggggggs [idbest].tier3+client.msgggggggggggggs [idbest].tier4+client.msgggggggggggggs [idbest].tier5+client.msgggggggggggggs [idbest].tier6;
+        fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+        // client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
+         
+  
+      
+        }
+        if(tiiiiiiiier===4)
+      {
+          const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);        
+        //console.log(idbest);     
+        tiiiiiiiier=0;
+        // client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
+       
+        client.msgggggggggggggs [idbest].tier4++;
+        fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+        client.msgggggggggggggs [idbest].tier7=client.msgggggggggggggs [idbest].tier1+client.msgggggggggggggs [idbest].tier2+client.msgggggggggggggs [idbest].tier3+client.msgggggggggggggs [idbest].tier4+client.msgggggggggggggs [idbest].tier5+client.msgggggggggggggs [idbest].tier6;
+           fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+            if(err) throw err;
+        });
+      
+        }
+        if(tiiiiiiiier===5)
+      {
+          const stsr = msg.embeds[0].description;
+        let idbest=stsr.substring(31, 49);        
+        //console.log(idbest);      
+        tiiiiiiiier=0;
+         //client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);  
+         client.msgggggggggggggs [idbest].tier5++;
+         fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+             if(err) throw err;
+         });
+         client.msgggggggggggggs [idbest].tier7=client.msgggggggggggggs [idbest].tier1+client.msgggggggggggggs [idbest].tier2+client.msgggggggggggggs [idbest].tier3+client.msgggggggggggggs [idbest].tier4+client.msgggggggggggggs [idbest].tier5+client.msgggggggggggggs [idbest].tier6;
+           fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+             if(err) throw err;
+         });
+       
+        }
+        if(tiiiiiiiier===6)
+        {
+            const stsr = msg.embeds[0].description;
+          let idbest=stsr.substring(31, 49);        
+          //console.log(idbest);
+          tiiiiiiiier=0;
+           client.msgggggggggggggs [idbest].tier6++;
+           fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+               if(err) throw err;
+           });
+           client.msgggggggggggggs [idbest].tier7=client.msgggggggggggggs [idbest].tier1+client.msgggggggggggggs [idbest].tier2+client.msgggggggggggggs [idbest].tier3+client.msgggggggggggggs [idbest].tier4+client.msgggggggggggggs [idbest].tier5+client.msgggggggggggggs [idbest].tier6;
+           fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+               if(err) throw err;
+           });
+       
+          }
+    } 
+         return 
+    }
+
+
+//logs!!!
+    if(msg.embeds[0].title.includes('Tier: 1'))
+    { tiiiiiiiier=1;namess=msg.embeds[0].title;
+    }
+   if(msg.embeds[0].title.includes('Tier: 2'))
+    { tiiiiiiiier=2;namess=msg.embeds[0].title;
+    }
+     if(msg.embeds[0].title.includes('Tier: 3'))
+     { tiiiiiiiier=3;namess=msg.embeds[0].title;
+    }
+     if(msg.embeds[0].title.includes('Tier: 4'))
+     {tiiiiiiiier=4;namess=msg.embeds[0].title;
+      }
+    if(msg.embeds[0].title.includes('Tier: 5'))
+     {tiiiiiiiier=5;namess=msg.embeds[0].title;
+        console.log(`${msg.embeds[0].title} in server 1`)
+    } 
+    if(msg.embeds[0].title.includes('Tier: 6'))
+    { tiiiiiiiier=6;namess=msg.embeds[0].title;
+      console.log(`${msg.embeds[0].title} in server 1`)
+    }
+      });
+  }
+
+     
+    if((msg.content.startsWith("Zen!cards"))||(msg.content.startsWith("zen!cards")))
+   { if(msg.content==="Zen!cards" || msg.contet==="Zen!cards")
+    {msg.delete();
+    let t=msg.author.id;
+        const r= new MessageEmbed()
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+      .setTimestamp()
+      .addField('<:t1:718765842891800646>``Tier : 1``',client.msgggggggggggggs[t].tier1,true)
+      .addField('<:t2:718765892019814470>``Tier : 2``',client.msgggggggggggggs[t].tier2,true)
+      .addField('<:t3:718765963448680448>``Tier : 3``',client.msgggggggggggggs[t].tier3,true)
+      .addField('<:t4:718766099583205398>``Tier : 4``',client.msgggggggggggggs[t].tier4,true)
+      .addField('<:t5:718766000824254486>``Tier : 5``',client.msgggggggggggggs[t].tier5,true)
+      .addField('<:t6:718766066070716426>``Tier : 6``',client.msgggggggggggggs[t].tier6,true)
+      
+      .setDescription(`<@${t}> has claimed **${client.msgggggggggggggs[msg.author.id].tier7}** cards`)
+      .setFooter(`Server name: ${msg.guild.name}`)
+        .setColor('#0373fc')
+        //msg.channel.send(r);
+        return await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+    }  
+
+    if((msg.content.startsWith("Zen!cards"))||(msg.content.startsWith("zen!cards")))
+    {msg.delete();
+    let tt =msg.mentions.members.first()|| msg.author;
+    let t=tt.id;
+    const r= new MessageEmbed()
+    .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+    .setTimestamp()
+    .addField('<:t1:718765842891800646>``Tier : 1``',client.msgggggggggggggs[t].tier1,true)
+    .addField('<:t2:718765892019814470>``Tier : 2``',client.msgggggggggggggs[t].tier2,true)
+    .addField('<:t3:718765963448680448>``Tier : 3``',client.msgggggggggggggs[t].tier3,true)
+    .addField('<:t4:718766099583205398>``Tier : 4``',client.msgggggggggggggs[t].tier4,true)
+    .addField('<:t5:718766000824254486>``Tier : 5``',client.msgggggggggggggs[t].tier5,true)
+    .addField('<:t6:718766066070716426>``Tier : 6``',client.msgggggggggggggs[t].tier6,true)
+    
+    .setDescription(`${tt} has claimed **${client.msgggggggggggggs[t].tier7}** cards`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#0373fc')
+      //msg.channel.send(r);
+      await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+    }
+    }
+    if((msg.content.startsWith("Zen!showt1"))||(msg.content.startsWith("zen!showt1")))
+   { if(msg.content==="Zen!showt1" || msg.contet==="Zen!showt1")
+    {msg.delete();
+    let t=msg.author.id;
+        const r= new MessageEmbed()
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+      .setTimestamp()
+      .setDescription(`<:t1:718765842891800646> <@${t}> has claimed **${client.msgggggggggggggs[msg.author.id].tier1}** Tier: 1 cards`)
+      .setFooter(`Server name: ${msg.guild.name}`)
+        .setColor('#cccccc')
+        //msg.channel.send(r);
+        return await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+    }  
+
+    if((msg.content.startsWith("Zen!showt1"))||(msg.content.startsWith("zen!showt1")))
+    {msg.delete();
+    let tt =msg.mentions.members.first()|| msg.author;
+    let t=tt.id;
+    const r= new MessageEmbed()
+    .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+    .setTimestamp()
+    //.setDescription(`<:t1:718765842891800646><@${tt}> has claimed **${client.msgs[msg.author.id].tier1}** ``Tier : 1``cards`)
+    .setDescription(`<:t1:718765842891800646> <@${t}> has claimed **${client.msgggggggggggggs[t].tier1}** Tier: 1 cards`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#cccccc')
+      //msg.channel.send(r);
+      await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+    }
+    }
+    if((msg.content.startsWith("Zen!showt2"))||(msg.content.startsWith("zen!showt2")))
+   { if(msg.content==="Zen!showt2" || msg.contet==="Zen!showt2")
+    {msg.delete();
+    let t=msg.author.id;
+        const r= new MessageEmbed()
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+      .setTimestamp()
+      .setDescription(`<:t2:718765892019814470> <@${t}> has claimed **${client.msgggggggggggggs[msg.author.id].tier2}** Tier: 2  cards`)
+      .setFooter(`Server name: ${msg.guild.name}`)
+        .setColor('#7aff8d')
+        //msg.channel.send(r);
+        return await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+    }  
+
+    if((msg.content.startsWith("Zen!showt2"))||(msg.content.startsWith("zen!showt2")))
+    {msg.delete();
+    let tt =msg.mentions.members.first()|| msg.author;
+    let t=tt.id;
+    const r= new MessageEmbed()
+    .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+    .setTimestamp()
+    //.setDescription(`<:t1:718765842891800646><@${tt}> has claimed **${client.msgs[msg.author.id].tier1}** ``Tier : 1``cards`)
+    .setDescription(`<:t2:718765892019814470> <@${t}> has claimed **${client.msgggggggggggggs[t].tier2}** Tier: 2 cards`)
+    .setFooter(`Server name: ${msg.guild.name}`)
+      .setColor('#7aff8d')
+      //msg.channel.send(r);
+      await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+    }
+    }
+    if((msg.content.startsWith("Zen!showt3"))||(msg.content.startsWith("zen!showt3")))
+    { if(msg.content==="Zen!showt3" || msg.contet==="Zen!showt3")
+     {msg.delete();
+     let t=msg.author.id;
+         const r= new MessageEmbed()
+       .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+       .setTimestamp()
+       .setDescription(`<:t3:718765963448680448> <@${t}> has claimed **${client.msgggggggggggggs[msg.author.id].tier3}** Tier: 3 cards`)
+       .setFooter(`Server name: ${msg.guild.name}`)
+         .setColor('#58a0e3')
+         //msg.channel.send(r);
+         return await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+     }  
+ 
+     if((msg.content.startsWith("Zen!showt3"))||(msg.content.startsWith("zen!showt3")))
+     {msg.delete();
+     let tt =msg.mentions.members.first()|| msg.author;
+     let t=tt.id;
+     const r= new MessageEmbed()
+     .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+     .setTimestamp()
+     //.setDescription(`<:t1:718765842891800646><@${tt}> has claimed **${client.msgs[msg.author.id].tier1}** ``Tier : 1``cards`)
+     .setDescription(`<:t3:718765963448680448> <@${t}> has claimed **${client.msgggggggggggggs[t].tier3}** Tier: 3 cards`)
+     .setFooter(`Server name: ${msg.guild.name}`)
+       .setColor('#58a0e3')
+       //msg.channel.send(r);
+       await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+     }
+     }
+     if((msg.content.startsWith("Zen!showt4"))||(msg.content.startsWith("zen!showt4")))
+     { if(msg.content==="Zen!showt4" || msg.contet==="Zen!showt4")
+      {msg.delete();
+      let t=msg.author.id;
+          const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`<:t4:718766099583205398> <@${t}> has claimed **${client.msgggggggggggggs[msg.author.id].tier4}** Tier: 4 cards`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#ad58e3')
+          //msg.channel.send(r);
+          return await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+      }  
+  
+      if((msg.content.startsWith("Zen!showt4"))||(msg.content.startsWith("zen!showt4")))
+      {msg.delete();
+      let tt =msg.mentions.members.first()|| msg.author;
+      let t=tt.id;
+      const r= new MessageEmbed()
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+      .setTimestamp()
+      //.setDescription(`<:t1:718765842891800646><@${tt}> has claimed **${client.msgs[msg.author.id].tier1}** ``Tier : 1``cards`)
+      .setDescription(`<:t4:718766099583205398> <@${t}> has claimed **${client.msgggggggggggggs[t].tier4}** Tier: 4 cards`)
+      .setFooter(`Server name: ${msg.guild.name}`)
+        .setColor('#ad58e3')
+        //msg.channel.send(r);
+        await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+      }
+      }
+      if((msg.content.startsWith("Zen!showt5"))||(msg.content.startsWith("zen!showt4")))
+     { if(msg.content==="Zen!showt5" || msg.contet==="Zen!showt5")
+      {msg.delete();
+      let t=msg.author.id;
+          const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`<:t5:718766000824254486> <@${t}> has claimed **${client.msgggggggggggggs[msg.author.id].tier5}** Tier: 5 cards`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#fff200')
+          //msg.channel.send(r);
+          return await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+      }  
+  
+      if((msg.content.startsWith("Zen!showt5"))||(msg.content.startsWith("zen!showt5")))
+      {msg.delete();
+      let tt =msg.mentions.members.first()|| msg.author;
+      let t=tt.id;
+      const r= new MessageEmbed()
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+      .setTimestamp()
+      //.setDescription(`<:t1:718765842891800646><@${tt}> has claimed **${client.msgs[msg.author.id].tier1}** ``Tier : 1``cards`)
+      .setDescription(`<:t5:718766000824254486> <@${t}> has claimed **${client.msgggggggggggggs[t].tier5}** Tier: 5 cards`)
+      .setFooter(`Server name: ${msg.guild.name}`)
+        .setColor('#fff200')
+        //msg.channel.send(r);
+        await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+      }
+      }
+      if((msg.content.startsWith("Zen!showt6"))||(msg.content.startsWith("zen!showt6")))
+     { if(msg.content==="Zen!showt6" || msg.contet==="Zen!showt6")
+      {msg.delete();
+      let t=msg.author.id;
+          const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`<:t6:718766066070716426> <@${t}> has claimed **${client.msgggggggggggggs[msg.author.id].tier6}** Tier: 6 cards`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#ea2222')
+          //msg.channel.send(r);
+          return await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+      }  
+  
+      if((msg.content.startsWith("Zen!showt6"))||(msg.content.startsWith("zen!showt6")))
+      {msg.delete();
+      let tt =msg.mentions.members.first()|| msg.author;
+      let t=tt.id;
+      const r= new MessageEmbed()
+      .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+      .setTimestamp()
+      //.setDescription(`<:t1:718765842891800646><@${tt}> has claimed **${client.msgs[msg.author.id].tier1}** ``Tier : 1``cards`)
+      .setDescription(`<:t6:718766066070716426> <@${t}> has claimed **${client.msgggggggggggggs[t].tier6}** Tier: 6 cards`)
+      .setFooter(`Server name: ${msg.guild.name}`)
+        .setColor('#ea2222')
+        //msg.channel.send(r);
+        await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+      }
+      }
+
+      if((msg.content==="Zen!lb")||(msg.content==="zen!lb"))
+      {msg.delete();
+          let board = Object.entries(client.msgggggggggggggs)
+               .map(([key, val]) => ({id: key, ...val}))
+               .sort((a, b) => b.tier7 - a.tier7);
+      client.msrrrrrrrrrrrrrs=board;
+         rssr.writeFile ("./ZenBot/Sekailb.json",JSON.stringify(client.msrrrrrrrrrrrrrs, null, 4),err=>{
+                 if(err) throw err;
+             });
+ 
+             let _member1 = client.msrrrrrrrrrrrrrs[0].id;
+             let _member11 = client.msrrrrrrrrrrrrrs[0].tier7;
+             let _member2 = client.msrrrrrrrrrrrrrs[1].id;
+             let _member22 = client.msrrrrrrrrrrrrrs[1].tier7;
+             let _member3 = client.msrrrrrrrrrrrrrs[2].id;
+             let _member33 = client.msrrrrrrrrrrrrrs[2].tier7;
+             let _member4 = client.msrrrrrrrrrrrrrs[3].id;
+             let _member44 = client.msrrrrrrrrrrrrrs[3].tier7;
+             let _member5 = client.msrrrrrrrrrrrrrs[4].id;
+             let _member55 = client.msrrrrrrrrrrrrrs[4].tier7;
+             let _member6 = client.msrrrrrrrrrrrrrs[5].id;
+             let _member66 = client.msrrrrrrrrrrrrrs[5].tier7;
+             let _member7 = client.msrrrrrrrrrrrrrs[6].id;
+             let _member77 = client.msrrrrrrrrrrrrrs[6].tier7;
+             let _member8 = client.msrrrrrrrrrrrrrs[7].id;
+             let _member88 = client.msrrrrrrrrrrrrrs[7].tier7;
+             let _member9 = client.msrrrrrrrrrrrrrs[8].id;
+             let _member99 = client.msrrrrrrrrrrrrrs[8].tier7;
+             let _member10 = client.msrrrrrrrrrrrrrs[9].id;
+             let _member1010 = client.msrrrrrrrrrrrrrs[9].tier7;
+ 
+             
+             const r= new MessageEmbed()
+             .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+             .setTimestamp()
+             .setTitle(`Leaderboard for ${msg.guild.name}`)
+             //.setDescription(`<:t1:718765842891800646><@${tt}> has claimed **${client.msgs[msg.author.id].tier1}** ``Tier : 1``cards`)
+             .setDescription(`1)<@${_member1}> has claimed **${_member11}** cards \n 2)<@${_member2}> has claimed **${_member22}** cards \n 3)<@${_member3}> has claimed **${_member33}** cards \n 4)<@${_member4}> has claimed **${_member44}** cards \n 5)<@${_member5}> has claimed **${_member55}** cards \n 6)<@${_member6}> has claimed **${_member66}** cards \n 7)<@${_member7}> has claimed **${_member77}** cards \n 8)<@${_member8}> has claimed **${_member88}** cards \n 9)<@${_member9}> has claimed **${_member99}** cards \n 10)<@${_member10}> has claimed **${_member1010}** cards`)
+             .setFooter(`Server name: ${msg.guild.name}`)
+               .setColor('#0373fc')
+               //msg.channel.send(r);
+               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
+ 
+     }
+    if((msg.member.hasPermission("ADMINISTRATOR")) && (msg.content==="Zen!reset"))
+        {  msg.reply("Done!");
+            client.msgggggggggggggs= {}
+            fssr.writeFile ("./ZenBot/Sekai.json",JSON.stringify(client.msgggggggggggggs, null, 4),err=>{
+                if(err) throw err;
+            });
+        }
+}
+
+});
 
 
 
