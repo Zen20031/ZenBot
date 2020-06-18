@@ -5807,9 +5807,6 @@ client.on('message', async msg => {
 
 
 
-
-
-
 client.on('message', (message) => {
 if(message.content.startsWith("Zen!name"))
 { console.log(__dirname)
