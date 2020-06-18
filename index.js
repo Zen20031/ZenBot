@@ -5833,5 +5833,6 @@ if(message.content.startsWith("Zen!name"))
 config ({
   path: __dirname + "/.env"
 });
-client.login(process.env.TOKEN);    
+
+client.login(process.env.token);    
 
