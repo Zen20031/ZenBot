@@ -5812,7 +5812,8 @@ client.on('message', async msg => {
 
 client.on('message', (message) => {
 if(message.content.startsWith("Zen!name"))
-{ let pre="Zen!name";
+{ console.log(__dirname)
+  let pre="Zen!name";
   let args = message.content.substring(pre.length).split(" ");
   let text = args.join(" ");
   message.guild.members.cache.get(client.user.id).setNickname(text);
