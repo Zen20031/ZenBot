@@ -5830,7 +5830,6 @@ if(message.content.startsWith("Zen!name"))
 }*/
 });
 
-
 config ({
   path: __dirname + "/.env"
 });
