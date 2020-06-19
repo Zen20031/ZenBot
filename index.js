@@ -12,7 +12,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 
 
-require('events').EventEmitter.defaultMaxListeners = 100;
+require('events').EventEmitter.defaultMaxListeners = 100; 
 
 client.on("ready", () => {
   console.log(`Hi, ${client.user.username} is now online!`);
