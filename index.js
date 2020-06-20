@@ -5805,6 +5805,108 @@ client.on('message', async msg => {
 
 
 
+/////SERVER 19 AnimeMemesSekai
+//const fssr = require("fs");
+client.viper = require ("./Viper.json");
+//const rssr = require("fs");
+client.viperlb=require ("./Viperlb.json");
+
+client.on('message', async msg => {
+    if(msg.channel.id==="481750600401289216")
+    {   
+        if(typeof client.viper[msg.author.id]==="undefined")
+    {
+        client.viper [msg.author.id]={
+            tier7 : 0
+        }
+        fssr.writeFile ("./ZenBot/Viper.json",JSON.stringify(client.viper, null, 4),err=>{
+            if(err) throw err;
+        });
+    }
+  
+
+
+//logs!!!
+    if(msg.content.includes('+1') &&(msg.author.id==="573290240354156578"))
+    { 
+      let x=msg.mentions.users.first() || msg.author;
+     let y=x.id;
+     console.log(y);
+     client.viper[y].tier7++;
+      fssr.writeFile ("./ZenBot/Viper.json",JSON.stringify(client.viper, null, 4),err=>{
+        if(err) throw err;
+      });
+    }
+    if(msg.content.includes('-1') &&(msg.author.id==="573290240354156578"))
+    { 
+      let x=msg.mentions.users.first() || msg.author;
+     let y=x.id;
+     client.viper[y].tier7--;
+      fssr.writeFile ("./ZenBot/Viper.json",JSON.stringify(client.viper, null, 4),err=>{
+        if(err) throw err;
+      });
+    }
+    
+
+  
+     
+
+
+  
+
+      if(((msg.content==="Zen!lb")||(msg.content==="zen!lb")) && (msg.author.id==="573290240354156578"))
+      {msg.delete();
+          let board = Object.entries(client.viper)
+               .map(([key, val]) => ({id: key, ...val}))
+               .sort((a, b) => b.tier7 - a.tier7);
+      client.viperlb=board;
+         rssr.writeFile ("./ZenBot/Viperlb.json",JSON.stringify(client.viperlb, null, 4),err=>{
+                 if(err) throw err;
+             });
+ 
+             let _member1 = client.viperlb[0].id;
+             let _member11 = client.viperlb[0].tier7;
+             let _member2 = client.viperlb[1].id;
+             let _member22 = client.viperlb[1].tier7;
+             let _member3 = client.viperlb[2].id;
+             let _member33 = client.viperlb[2].tier7;
+             let _member4 = client.viperlb[3].id;
+             let _member44 = client.viperlb[3].tier7;
+             let _member5 = client.viperlb[4].id;
+             let _member55 = client.viperlb[4].tier7;
+         
+ 
+             
+             const r= new MessageEmbed()
+             .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+             .setTimestamp()
+             .setTitle(`Leaderboard for ${msg.guild.name}`)
+             //.setDescription(`<:t1:718765842891800646><@${tt}> has claimed **${client.msgs[msg.author.id].tier1}** ``Tier : 1``cards`)
+             .setDescription(`1)<@${_member1}> has **${_member11}** points \n 2)<@${_member2}> has **${_member22}** points \n 3)<@${_member3}> has **${_member33}** points \n 4)<@${_member4}> has **${_member44}** points \n 5)<@${_member5}> has **${_member55}** points`)
+             .setFooter(`Server name: ${msg.guild.name}`)
+               .setColor('#0373fc')
+               //msg.channel.send(r);
+               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))}
+    
+ 
+    }
+ });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 client.on('message', (message) => {
