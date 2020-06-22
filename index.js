@@ -6352,7 +6352,7 @@ client.on('message', async msg => {
 
 
 
-
+/*
 //json.maxItemsComputed
  //TEST!!!!!!!!!!!!!!
 //const fssr = require("fs");
@@ -6425,6 +6425,7 @@ client.on('message', async msg => {
   
   //}
 })
+*/
 
 
 
@@ -9954,4 +9955,3 @@ client.on('message', async msg => {
 
 
 
-  
