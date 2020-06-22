@@ -1369,7 +1369,7 @@ client.on('message', async msg => {
 });
 
 
-
+/*
 /////SERVER 4 EGC  
 //const fssr = require("fs");
 client.msggggs = require ("./EGC.json");
@@ -1808,6 +1808,7 @@ client.on('message', async msg => {
 }
 
 });
+*/
 
 
 
@@ -8234,7 +8235,7 @@ client.on('message', async msg => {
 });
 
 
-/*
+
 /////SERVER EGC
 let tierrrrrs=0;
 client.on('message', async msg => {
@@ -8663,6 +8664,5 @@ client.on('message', async msg => {
         }
 }
 });
-*/
 
 
