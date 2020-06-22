@@ -5795,7 +5795,7 @@ client.on('message', async msg => {
 
 });
 
-
+/*
 /////SERVER 20 Ways to Dye
 //const fssr = require("fs");
 client.msggggggggggggggs = require ("./Ways.json");
@@ -6234,6 +6234,7 @@ client.on('message', async msg => {
 }
 
 });
+*/
 
 
 
@@ -7803,7 +7804,7 @@ client.on('message', async msg => {
 
 
 
-/*/////SERVER Ways
+/////SERVER Ways
 let tierrrrs=0;
 client.on('message', async msg => {
   if(msg.content==="asdasdasd")
@@ -8231,7 +8232,8 @@ client.on('message', async msg => {
         }
 }
 });
-*/
+
+
 /*
 /////SERVER EGC
 let tierrrrrs=0;
