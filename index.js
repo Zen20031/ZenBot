@@ -7375,7 +7375,7 @@ client.on('message', async msg => {
 
 
 /////SERVER 22 Mirai
-let tierrrr=0;
+let tierrrs=0;
 client.on('message', async msg => {
   if(msg.content==="asdasdasd")
   console.log(client.msps[msg.guild.id][msg.author.id].tier7)
@@ -7403,7 +7403,7 @@ client.on('message', async msg => {
     { 
       if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
-      if(tierrrr===1)
+      if(tierrrs===1)
       {const stsr = msg.embeds[0].description;
         let idbest=stsr.substring(31, 49);//ala care a luat      
         //const User = Client.User(idbest);
@@ -7414,18 +7414,18 @@ client.on('message', async msg => {
         });
         //client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
         let tttt=msg.embeds[0].description;
-       tierrrr=0;
+        tierrrs=0;
        client.msps [msg.guild.id][idbest].tier7=client.msps [msg.guild.id][idbest].tier1+client.msps [msg.guild.id][idbest].tier2+client.msps [msg.guild.id][idbest].tier3+client.msps [msg.guild.id][idbest].tier4+client.msps[msg.guild.id] [idbest].tier5+client.msps[msg.guild.id] [idbest].tier6;
        fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
         if(err) throw err;
     });
       }
-      if(tierrrr===2)
+      if(tierrrs===2)
       {
           const stsr = msg.embeds[0].description;
         let idbest=stsr.substring(31, 49);        
         //console.log(idbest);
-         tierrrr=0;
+        tierrrs=0;
          client.msps [msg.guild.id][idbest].tier2++;
         fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
             if(err) throw err;
@@ -7435,12 +7435,12 @@ client.on('message', async msg => {
          if(err) throw err;
      });
         }
-        if(tierrrr===3)
+        if(tierrrs===3)
       {
           const stsr = msg.embeds[0].description;
         let idbest=stsr.substring(31, 49);        
         //conrsole.log(idbest);        
-         tierrrr=0;
+        tierrrs=0;
          client.msps [msg.guild.id][idbest].tier3++;
         fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
             if(err) throw err;
@@ -7452,12 +7452,12 @@ client.on('message', async msg => {
      });
       
         }
-        if(tierrrr===4)
+        if(tierrrs===4)
       {
           const stsr = msg.embeds[0].description;
         let idbest=stsr.substring(31, 49);        
         //console.log(idbest);     
-         tierrrr=0;
+        tierrrs=0;
         // client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);
        
         client.msps [msg.guild.id][idbest].tier4++;
@@ -7470,12 +7470,12 @@ client.on('message', async msg => {
         });
         
         }
-        if(tierrrr===5)
+        if(tierrrs===5)
       {
           const stsr = msg.embeds[0].description;
         let idbest=stsr.substring(31, 49);        
         //console.log(idbest);      
-           tierrrr=0;
+        tierrrs=0;
          //client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}`);  
          client.msps [msg.guild.id][idbest].tier5++;
          fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -7487,12 +7487,12 @@ client.on('message', async msg => {
         });
         
         }
-        if(tierrrr===6)
+        if(tierrrs===6)
         {
             const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(31, 49);        
           //console.log(idbest);
-           tierrrr=0;
+          tierrrs=0;
            client.msps [msg.guild.id][idbest].tier6++;
            fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                if(err) throw err;
@@ -7509,23 +7509,23 @@ client.on('message', async msg => {
 
 //logs!!!
     if(msg.embeds[0].title.includes('Tier: 1'))
-    { tierrrr=1;namess=msg.embeds[0].title;
+    { tierrrs=1;namess=msg.embeds[0].title;
     }
    if(msg.embeds[0].title.includes('Tier: 2'))
-    { tierrrr=2;namess=msg.embeds[0].title;
+    { tierrrs=2;namess=msg.embeds[0].title;
     }
      if(msg.embeds[0].title.includes('Tier: 3'))
-     { tierrrr=3;namess=msg.embeds[0].title;
+     { tierrrs=3;namess=msg.embeds[0].title;
     }
      if(msg.embeds[0].title.includes('Tier: 4'))
-     {tierrrr=4;namess=msg.embeds[0].title;
+     {tierrrs=4;namess=msg.embeds[0].title;
       }
     if(msg.embeds[0].title.includes('Tier: 5'))
-     {tierrrr=5;namess=msg.embeds[0].title;
+     {tierrrs=5;namess=msg.embeds[0].title;
         console.log(`${msg.embeds[0].title} in server 1`)
     } 
     if(msg.embeds[0].title.includes('Tier: 6'))
-    { tierrrr=6;namess=msg.embeds[0].title;
+    { tierrrs=6;namess=msg.embeds[0].title;
       console.log(`${msg.embeds[0].title} in server 1`)
     }
       });
@@ -9096,7 +9096,7 @@ client.on('message', async msg => {
 });
 
 
-/////SERVER 
+/////SERVER Dungeon
 let tierrrrrrrs=0;
 client.on('message', async msg => {
   if(msg.content==="asdasdasd")
