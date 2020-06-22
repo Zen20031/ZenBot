@@ -6387,7 +6387,11 @@ client.on('message', async msg => {
     }
     if((msg.content==="Zlb")||(msg.content==="zlb"))
       {msg.delete();
-          let board = Object.entries(client.ttest.id)
+        client.tteest=client.ttest[msg.guild.id];
+        rssr.writeFile ("./ZenBot/trtrlb.json",JSON.stringify(client.tteest, null, 4),err=>{
+                 if(err) throw err;
+             });
+          let board = Object.entries(client.tteest)
                .map(([key, val]) => ({id: key, ...val}))
                .sort((a, b) => b.tier7 - a.tier7);
       client.tteest=board;
