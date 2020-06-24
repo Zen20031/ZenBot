@@ -6934,7 +6934,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -7363,7 +7363,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -7793,7 +7793,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -8224,7 +8224,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -8655,7 +8655,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -9085,7 +9085,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -9515,7 +9515,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -9945,7 +9945,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -10375,7 +10375,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -10805,7 +10805,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -11236,7 +11236,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -11666,7 +11666,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -12096,7 +12096,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -12526,7 +12526,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
@@ -12957,7 +12957,7 @@ client.on('message', async msg => {
               await msg.channel.send(r).then(r => r.delete({ timeout: 9000 }))
 
     }
-    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Z!reset claims"))
+    if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
         {  msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
