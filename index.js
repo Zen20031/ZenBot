@@ -6935,7 +6935,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`) 
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -7364,7 +7365,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -7794,7 +7796,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -8225,7 +8228,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -8656,7 +8660,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -9086,7 +9091,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        {  console.log(`claims reset! in ${msg.guild.name}`) 
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -9516,7 +9522,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -9946,7 +9953,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -10376,7 +10384,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -10806,7 +10815,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -11237,7 +11247,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -11667,7 +11678,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -12097,7 +12109,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`) 
+           msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -12527,7 +12540,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`)  
+          msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
@@ -12958,7 +12972,8 @@ client.on('message', async msg => {
 
     }
     if(((msg.member.hasPermission("ADMINISTRATOR"))|| msg.author.id==="701108556996411512") && (msg.content==="Zen!reset claims"))
-        {  msg.reply("Done!");
+        { console.log(`claims reset! in ${msg.guild.name}`) 
+           msg.reply("Done!");
             client.msps[msg.guild.id]= {}
             fs.writeFile ("./ZenBot/claims.json",JSON.stringify(client.msps, null, 4),err=>{
                 if(err) throw err;
