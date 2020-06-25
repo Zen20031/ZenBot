@@ -1,4 +1,4 @@
-Worker: node AnimeSoul.js
+Worker: node index.js
 
 
 

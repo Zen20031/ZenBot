@@ -13860,3 +13860,27 @@ client.on('message', async msg => {
 
 
 
+
+
+
+
+const mongoose = require("mongoose");
+const Report = require("./report.js")
+mongoose.connect("mongodb://localhost/Reports");  
+
+client.on('message', (msg) => {
+  if(msg.content==="test mongoose 1234")
+  {
+const report = new Report({
+  _id: mongoose.Types.ObjectId(),
+  username: msg.author.username,
+  userID: msg.author.id
+});
+report.save().then(result => console.log(result))
+.catch(err =>console.log(err));
+msg.reply("test")
+  }
+})
+
+
+
