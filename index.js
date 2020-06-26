@@ -13866,9 +13866,10 @@ client.on('message', async msg => {
 
 const mongoose = require("mongoose");
 const Report = require("./report.js")
-mongoose.connect("mongodb://localhost/Reports", {useNewUrlParser: true, useUnifiedTopology: true});  
+mongoose.connect("mongodb://localhost:27017/Reports", {useNewUrlParser: true, useUnifiedTopology: true});  
 //mongoose..connect(url, {useNewUrlParser: true } )
 client.on('message', (msg) => {
+
   if(msg.content==="test mongoose 1234")
   {
 const report = new Report({
