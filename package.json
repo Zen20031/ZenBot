@@ -15,7 +15,6 @@
         "random-puppy": "^1.1.0",
         "vultrex.db": "github:vultrex/vultrexdb",
         "weather-js": "^2.0.0",
-        "ytdl-core": "^2.1.0",
-        "mogoose": "^5.1.6"
+        "ytdl-core": "^2.1.0"
     }
-}
+}   
