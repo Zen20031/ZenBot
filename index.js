@@ -10401,7 +10401,7 @@ let tierrrrrrrrrrs=0;
 client.on('message', async msg => {
   if(msg.content==="asdasdasd")
   console.log(client.msps[msg.guild.id][msg.author.id].tier7)
-    if(msg.channel.id==="722544887375069235")
+    if(msg.channel.id==="694411103782043688")
     {   
       if(typeof client.msps[msg.guild.id][msg.author.id]==="undefined")
       {
@@ -10419,7 +10419,7 @@ client.on('message', async msg => {
               if(err) throw err;
           });
       }
-    if((msg.channel.id==="722544887375069235") && (msg.author.id==="673362753489993749")){  
+    if((msg.channel.id==="694411103782043688") && (msg.author.id==="673362753489993749")){  
     msg.embeds.forEach((embed) => {
     if(typeof msg.embeds[0].title==='undefined')
     { 
