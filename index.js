@@ -12987,7 +12987,7 @@ client.on('message', async msg => {
 
 
 
-/////SERVER 16 New sv
+/////SERVER 16 New svLast Destiny
 let tierrrrrrrrrrrrrrrrs=0;
 client.on('message', async msg => {
   if(msg.content==="asdasdasd")
