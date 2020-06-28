@@ -17,6 +17,7 @@
         "weather-js": "^2.0.0",
         "ytdl-core": "^2.1.0",
         "mongoose":"^5.9.20",
-        "animequotes":"1.1.2"
+        "animequotes":"1.1.2",
+        "kitsu.js":"2.0.0"
     }
 }   
