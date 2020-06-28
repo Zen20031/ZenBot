@@ -4781,17 +4781,6 @@ client.login(process.env.token);
 
   
 
-const express = require('express')
-const app=express()
-const port =4000
-let xe=10;
-
-app.get('/',(req,res)=>{
-  res.send({
-    message: xe
-    
-  })
-})
 
 client.on('message', (msg) => {
   if((msg.content.startsWith("Zen!report"))||(msg.content.startsWith("zen!report")))
@@ -4812,17 +4801,6 @@ client.on('message', (msg) => {
   msg.channel.send(`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`)
   }
   });
-  
-app.get('/',(req,res)=>{
-  res.send({
-    message: xe
-    
-  })
-})
-app.listen(port,()=>
-{
-  console.log(`Server is up at ${port}!`)
-})
 
 /*
 const mongoose = require("mongoose");
