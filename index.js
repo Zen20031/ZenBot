@@ -13420,7 +13420,7 @@ client.on('message', async msg => {
 
 
 
-/////SERVER 16 New sv
+/////SERVER 17 New sv
 let tierrrrrrrrrrrrrrrrrs=0;
 client.on('message', async msg => {
   if(msg.content==="asdasdasd")
