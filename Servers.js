@@ -4594,7 +4594,7 @@ const malScraper = require('mal-scraper')
 const animeQuotes = require("animequotes");
 const Kitsu = require("kitsu.js");
 const kitsu = new Kitsu();
-const aq = require ("animequote");
+//const aq = require ("animequote");
 const fetch = require("node-fetch")
 client.on('message', message => {
   if(message.content==="Zen!reset")
