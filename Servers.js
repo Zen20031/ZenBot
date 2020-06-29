@@ -5421,7 +5421,7 @@ client.on('message',async msg => {
       .setFooter(`Server name: ${msg.guild.name}`)
         .setColor('#cc00ff')
         ret= await client.channels.cache.get(x).send(r);
-      return msg.channel.send("<@&727100057458966538>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>") 
+      return msg.channel.send("<@&727100057458966538>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
      }
     if(msg.embeds[0].title.includes('Tier: 5'))
      {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
