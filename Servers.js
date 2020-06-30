@@ -13081,8 +13081,8 @@ client.on('message',async msg => {
         .setDescription(`${msg.embeds[0].title} has spawned!`)
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#cc00ff')
-         reeeeeeet= await client.channels.cache.get(x).send(r);
-        return  msg.channel.send("<@&726364426864951308>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
+         return reeeeeeet= await client.channels.cache.get(x).send(r);
+        //return  msg.channel.send("<@&>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
        {let xp=14;
@@ -13120,7 +13120,7 @@ client.on('message',async msg => {
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#ffff00')
           reeeeeeet= await client.channels.cache.get(x).send(r);
-          return msg.channel.send("<@&726362558998773762>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
+          return msg.channel.send("<@&727414885469651006>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
         } 
       if(msg.embeds[0].title.includes('Tier: 6'))
       { let xp=14;
@@ -13158,7 +13158,7 @@ client.on('message',async msg => {
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#ea2222')
           reeeeeeet= await client.channels.cache.get(x).send(r);
-          return msg.channel.send("<@&726363940161847387>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
+          return msg.channel.send("<@&727414895179726848>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
         } 
       //console.log("WE HAVE A PROBLEM!!!");// if there are no embeds, this code won't run.
         });
