@@ -12935,7 +12935,7 @@ client.on('message',async msg => {
   
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
-      {  
+      {  tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
         let xp=14;
        let myinterval;
        let ok=1;
@@ -12973,7 +12973,7 @@ client.on('message',async msg => {
        reeeeeeet= await client.channels.cache.get(x).send(r);
       } 
      if(msg.embeds[0].title.includes('Tier: 2'))
-      { 
+      { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
         
         let xp=14;
         let myinterval;
@@ -13011,7 +13011,8 @@ client.on('message',async msg => {
           .setColor('#33cc33')
           return reeeeeeet= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
-       {let xp=14;
+       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+         let xp=14;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -13047,7 +13048,8 @@ client.on('message',async msg => {
           .setColor('#0099ff')
           return  reeeeeeet= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 4'))
-       {let xp=14;
+       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+         let xp=14;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -13085,7 +13087,8 @@ client.on('message',async msg => {
         //return  msg.channel.send("<@&>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
-       {let xp=14;
+       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+         let xp=14;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -13123,7 +13126,8 @@ client.on('message',async msg => {
           return msg.channel.send("<@&727414885469651006>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
         } 
       if(msg.embeds[0].title.includes('Tier: 6'))
-      { let xp=14;
+      { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+        let xp=14;
         let myinterval;
         let ok=1;
           if (ok===1) {
