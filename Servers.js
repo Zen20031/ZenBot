@@ -13577,6 +13577,407 @@ client.on('message',async msg => {
 
 
 
+      
+  //New Candy cekestian thing
+  let tiiiiiiiiiier=0;
+  let reeeeeeeeet;
+  let nammesssssssssm;
+  client.on('message',async msg => {
+    if((msg.channel.id==="656863131649441821") && (msg.author.id==="673362753489993749")){
+      if((msg.content.startsWith('Looks like nobody')) && (msg.author.id==="673362753489993749"))
+      {let tr=0;
+        if(tiiiiiiiiiier===1)
+      {
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${nammesssssssssm} despawned`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#f2f2f2')
+        reeeeeeeeet.edit(r);
+  
+      }
+      if(tiiiiiiiiiier===2)
+      {
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${nammesssssssssm} despawned`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#33cc33')
+        reeeeeeeeet.edit(r);
+  
+      }
+      if(tiiiiiiiiiier===3)
+      {
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${nammesssssssssm} despawned`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#0099ff')
+        reeeeeeeeet.edit(r);
+  
+      }
+      if(tiiiiiiiiiier===4)
+      {
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${nammesssssssssm} despawned`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#cc00ff')
+        reeeeeeeeet.edit(r);
+  
+      }
+      if(tiiiiiiiiiier===5)
+      {
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${nammesssssssssm} despawned`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#ffff00')
+        reeeeeeeeet.edit(r);
+  
+      }
+      if(tiiiiiiiiiier===6)
+      {
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${nammesssssssssm} despawned`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#ea2222')
+        reeeeeeeeet.edit(r);
+      }
+    }
+    msg.embeds.forEach(async embed => {
+      let x='731443028522172547';
+      if(typeof msg.embeds[0].title==='undefined')
+      { 
+        if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+        {
+        if(tiiiiiiiiiier===1)
+        {
+          const stsr = msg.embeds[0].description;
+          let idbest=stsr.substring(31, 49);    
+          const r= new MessageEmbed()
+          .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+          .setTimestamp()
+          .setDescription(`<@${idbest}> has claimed [${nammesssssssssm}](${tr})`)
+          .setFooter(`Server name: ${msg.guild.name}`)
+            .setColor('#f2f2f2')
+          tiiiiiiiiiier=0;
+          reeeeeeeeet.edit(r);   
+        }
+        if(tiiiiiiiiiier===2)
+        {
+          const stsr = msg.embeds[0].description;
+          let idbest=stsr.substring(31, 49);    
+          const r= new MessageEmbed()
+          .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+          .setTimestamp()
+          .setDescription(`<@${idbest}> has claimed [${nammesssssssssm}](${tr})`)
+          .setFooter(`Server name: ${msg.guild.name}`)
+            .setColor('#33cc33')
+          tiiiiiiiiiier=0;
+          reeeeeeeeet.edit(r); 
+          }
+          if(tiiiiiiiiiier===3)
+        {const stsr = msg.embeds[0].description;
+          let idbest=stsr.substring(31, 49);    
+          const r= new MessageEmbed()
+          .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+          .setTimestamp()
+          .setDescription(`<@${idbest}> has claimed [${nammesssssssssm}](${tr})`)
+          .setFooter(`Server name: ${msg.guild.name}`)
+            .setColor('#0099ff')
+          tiiiiiiiiiier=0;
+          reeeeeeeeet.edit(r); 
+        }
+          if(tiiiiiiiiiier===4)
+        {const stsr = msg.embeds[0].description;
+          let idbest=stsr.substring(31, 49);    
+          const r= new MessageEmbed()
+          .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+          .setTimestamp()
+          .setDescription(`<@${idbest}> has claimed [${nammesssssssssm}](${tr})`)
+          .setFooter(`Server name: ${msg.guild.name}`)
+            .setColor('#cc00ff')
+          tiiiiiiiiiier=0;
+          reeeeeeeeet.edit(r); 
+         }
+          if(tiiiiiiiiiier===5)
+        {const stsr = msg.embeds[0].description;
+          let idbest=stsr.substring(31, 49);    
+          const r= new MessageEmbed()
+          .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+          .setTimestamp()
+          .setDescription(`<@${idbest}> has claimed [${nammesssssssssm}](${tr})`)
+          .setFooter(`Server name: ${msg.guild.name}`)
+            .setColor('#ffff00')
+          tiiiiiiiiiier=0;
+          reeeeeeeeet.edit(r); 
+         }
+          if(tiiiiiiiiiier===6)
+          {
+          const stsr = msg.embeds[0].description;
+          let idbest=stsr.substring(31, 49);    
+          const r= new MessageEmbed()
+          .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+          .setTimestamp()
+          .setDescription(`<@${idbest}> has claimed [${nammesssssssssm}](${tr})`)
+          .setFooter(`Server name: ${msg.guild.name}`)
+            .setColor('#ea2222')
+          tiiiiiiiiiier=0;
+          reeeeeeeeet.edit(r); 
+           }
+      } 
+           return 
+      }
+  
+  
+  //logs!!!
+      if(msg.embeds[0].title.includes('Tier: 1'))
+      {  tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+        let xp=14;
+       let myinterval;
+       let ok=1;
+         if (ok===1) {
+           const r= new MessageEmbed()
+           .setDescription(`**Time remaining till despawns** ${xp}`)   
+             .setColor('#cccccc')
+            msg.channel.send(r)
+                 .then(message => { //clearInterval(myinterval);
+                     myinterval=setInterval(function() {
+                       //console.log(".")
+                      
+                       xp=xp-2;  
+                     const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+                         .setColor('#cccccc')
+                       message.edit(r)
+                         if(xp==0)
+                       {clearInterval(myinterval);
+                         message.delete();
+                       }
+                     }, 2000);
+                     //clearInterval(myinterval);
+                      
+                     })
+              }
+        nammesssssssssm=msg.embeds[0].title;
+       tiiiiiiiiiier=1;
+       const r= new MessageEmbed()
+       .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+       .setTimestamp()
+       .setDescription(`${msg.embeds[0].title} has spawned!`)
+       .setFooter(`Server name: ${msg.guild.name}`)
+         .setColor('#cccccc')
+       reeeeeeeeet= await client.channels.cache.get(x).send(r);
+      } 
+     if(msg.embeds[0].title.includes('Tier: 2'))
+      { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+        
+        let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#7aff8d')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#7aff8d')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+        nammesssssssssm=msg.embeds[0].title;
+        tiiiiiiiiiier=2;
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${msg.embeds[0].title} has spawned!`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#33cc33')
+          return reeeeeeeeet= await client.channels.cache.get(x).send(r);}
+       if(msg.embeds[0].title.includes('Tier: 3'))
+       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+         let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#58a0e3')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#58a0e3')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+         
+        tiiiiiiiiiier=3;nammesssssssssm=msg.embeds[0].title;
+         const r= new MessageEmbed()
+         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())     
+        .setTimestamp()
+        .setDescription(`${msg.embeds[0].title} has spawned!`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#0099ff')
+          return  reeeeeeeeet= await client.channels.cache.get(x).send(r);}
+       if(msg.embeds[0].title.includes('Tier: 4'))
+       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+         let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#ad58e3')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#ad58e3')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+        tiiiiiiiiiier=4;nammesssssssssm=msg.embeds[0].title;
+         console.log(`${msg.embeds[0].title} in server 1`)
+         const r= new MessageEmbed()
+         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${msg.embeds[0].title} has spawned!`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#cc00ff')
+         return reeeeeeeeet= await client.channels.cache.get(x).send(r);
+        //return  msg.channel.send("<@&>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
+        }
+      if(msg.embeds[0].title.includes('Tier: 5'))
+       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+         let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#fff200')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#fff200')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+         
+        tiiiiiiiiiier=5;nammesssssssssm=msg.embeds[0].title;
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())    
+        .setTimestamp()
+        .setDescription(`${msg.embeds[0].title} has spawned!`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#ffff00')
+          reeeeeeeeet= await client.channels.cache.get(x).send(r);
+          return msg.channel.send("<@&726451376430907444>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
+        } 
+      if(msg.embeds[0].title.includes('Tier: 6'))
+      { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+        let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#ea2222')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#ea2222')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+        
+        tiiiiiiiiiier=6;nammesssssssssm=msg.embeds[0].title;
+        const r= new MessageEmbed()
+        .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setTimestamp()
+        .setDescription(`${msg.embeds[0].title} has spawned!`)
+        .setFooter(`Server name: ${msg.guild.name}`)
+          .setColor('#ea2222')
+          reeeeeeeeet= await client.channels.cache.get(x).send(r);
+          return msg.channel.send("<@&726451376430907444>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
+        } 
+      //console.log("WE HAVE A PROBLEM!!!");// if there are no embeds, this code won't run.
+        });
+      }
+    }) 
+
+
+
+
+
 
 
 
