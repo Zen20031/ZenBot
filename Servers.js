@@ -12457,7 +12457,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed ${nammessssssm}`)
+          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#f2f2f2')
           tiiiiiiier=0;
@@ -12470,7 +12470,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed ${nammessssssm}`)
+          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#33cc33')
           tiiiiiiier=0;
@@ -12482,7 +12482,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed ${nammessssssm}`)
+          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#0099ff')
           tiiiiiiier=0;
@@ -12494,7 +12494,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed ${nammessssssm}`)
+          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#cc00ff')
           tiiiiiiier=0;
@@ -12506,7 +12506,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed ${nammessssssm}`)
+          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#ffff00')
           tiiiiiiier=0;
@@ -12519,7 +12519,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed ${nammessssssm}`)
+          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#ea2222')
           tiiiiiiier=0;
