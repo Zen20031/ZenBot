@@ -6007,7 +6007,7 @@ client.on('message',async msg => {
       {
       if(tiertw===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48); 
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6020,7 +6020,7 @@ client.on('message',async msg => {
       if(tiertw===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6032,7 +6032,7 @@ client.on('message',async msg => {
         }
         if(tiertw===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6044,7 +6044,7 @@ client.on('message',async msg => {
       }
         if(tiertw===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6056,7 +6056,7 @@ client.on('message',async msg => {
        }
         if(tiertw===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48); 
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6069,7 +6069,7 @@ client.on('message',async msg => {
         if(tiertw===6)
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6316,7 +6316,7 @@ client.on('message',async msg => {
       {
       if(tiert===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48); 
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6329,7 +6329,7 @@ client.on('message',async msg => {
       if(tiert===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6341,7 +6341,7 @@ client.on('message',async msg => {
         }
         if(tiert===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6353,7 +6353,7 @@ client.on('message',async msg => {
       }
         if(tier===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6365,7 +6365,7 @@ client.on('message',async msg => {
        }
         if(tiert===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6378,7 +6378,7 @@ client.on('message',async msg => {
         if(tiert===6)
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6550,7 +6550,7 @@ client.on('message',async msg => {
       {
       if(tierts===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6563,7 +6563,7 @@ client.on('message',async msg => {
       if(tierts===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6575,7 +6575,7 @@ client.on('message',async msg => {
         }
         if(tierts===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6587,7 +6587,7 @@ client.on('message',async msg => {
       }
         if(tierts===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6599,7 +6599,7 @@ client.on('message',async msg => {
        }
         if(tierts===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6612,7 +6612,7 @@ client.on('message',async msg => {
         if(tierts===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6959,7 +6959,7 @@ client.on('message',async msg => {
       {
       if(tiertss===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6972,7 +6972,7 @@ client.on('message',async msg => {
       if(tiertss===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6984,7 +6984,7 @@ client.on('message',async msg => {
         }
         if(tiertss===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -6996,7 +6996,7 @@ client.on('message',async msg => {
       }
         if(tiertss===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7008,7 +7008,7 @@ client.on('message',async msg => {
        }
         if(tiertss===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7021,7 +7021,7 @@ client.on('message',async msg => {
         if(tiertss===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7354,7 +7354,7 @@ client.on('message',async msg => {
       {
       if(tiertsa===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7367,7 +7367,7 @@ client.on('message',async msg => {
       if(tiertsa===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7379,7 +7379,7 @@ client.on('message',async msg => {
         }
         if(tiertsa===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);  
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7391,7 +7391,7 @@ client.on('message',async msg => {
       }
         if(tiertsa===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7403,7 +7403,7 @@ client.on('message',async msg => {
        }
         if(tiertsa===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7416,7 +7416,7 @@ client.on('message',async msg => {
         if(tiertsa===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7592,7 +7592,7 @@ client.on('message',async msg => {
       {
       if(stierts===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7605,7 +7605,7 @@ client.on('message',async msg => {
       if(stierts===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48); 
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7617,7 +7617,7 @@ client.on('message',async msg => {
         }
         if(stierts===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);  
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7629,7 +7629,7 @@ client.on('message',async msg => {
       }
         if(stierts===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7641,7 +7641,7 @@ client.on('message',async msg => {
        }
         if(stierts===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48); 
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -7654,7 +7654,7 @@ client.on('message',async msg => {
         if(stierts===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);  
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8275,7 +8275,7 @@ client.on('message',async msg => {
       {
       if(tiertts===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8288,7 +8288,7 @@ client.on('message',async msg => {
       if(tiertts===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8300,7 +8300,7 @@ client.on('message',async msg => {
         }
         if(tiertts===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8312,7 +8312,7 @@ client.on('message',async msg => {
       }
         if(tiertts===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48); 
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8324,7 +8324,7 @@ client.on('message',async msg => {
        }
         if(tiertts===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8337,7 +8337,7 @@ client.on('message',async msg => {
         if(tiertts===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8516,7 +8516,7 @@ client.on('message',async msg => {
       {
       if(tierttts===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8529,7 +8529,7 @@ client.on('message',async msg => {
       if(tierttts===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8541,7 +8541,7 @@ client.on('message',async msg => {
         }
         if(tierttts===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8553,7 +8553,7 @@ client.on('message',async msg => {
       }
         if(tierttts===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8565,7 +8565,7 @@ client.on('message',async msg => {
        }
         if(tierts===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -8578,7 +8578,7 @@ client.on('message',async msg => {
         if(tierttts===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9006,7 +9006,7 @@ client.on('message',async msg => {
       {
       if(tiertttts===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9019,7 +9019,7 @@ client.on('message',async msg => {
       if(tiertttts===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9031,7 +9031,7 @@ client.on('message',async msg => {
         }
         if(tiertttts===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9043,7 +9043,7 @@ client.on('message',async msg => {
       }
         if(tiertttts===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9055,7 +9055,7 @@ client.on('message',async msg => {
        }
         if(tierts===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9068,7 +9068,7 @@ client.on('message',async msg => {
         if(tiertttts===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9248,7 +9248,7 @@ client.on('message',async msg => {
       {
       if(tierttttts===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9261,7 +9261,7 @@ client.on('message',async msg => {
       if(tierttttts===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9273,7 +9273,7 @@ client.on('message',async msg => {
         }
         if(tierttttts===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9285,7 +9285,7 @@ client.on('message',async msg => {
       }
         if(tierttttts===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9297,7 +9297,7 @@ client.on('message',async msg => {
        }
         if(tierts===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9310,7 +9310,7 @@ client.on('message',async msg => {
         if(tierttttts===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9659,7 +9659,7 @@ client.on('message',async msg => {
       {
       if(tiertttttts===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9672,7 +9672,7 @@ client.on('message',async msg => {
       if(tiertttttts===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9684,7 +9684,7 @@ client.on('message',async msg => {
         }
         if(tiertttttts===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9696,7 +9696,7 @@ client.on('message',async msg => {
       }
         if(tiertttttts===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9708,7 +9708,7 @@ client.on('message',async msg => {
        }
         if(tierts===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -9721,7 +9721,7 @@ client.on('message',async msg => {
         if(tiertttttts===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10073,7 +10073,7 @@ client.on('message',async msg => {
       {
       if(tierttttttts===1)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10086,7 +10086,7 @@ client.on('message',async msg => {
       if(tierttttttts===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10098,7 +10098,7 @@ client.on('message',async msg => {
         }
         if(tierttttttts===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10110,7 +10110,7 @@ client.on('message',async msg => {
       }
         if(tierttttttts===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10122,7 +10122,7 @@ client.on('message',async msg => {
        }
         if(tierts===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10135,7 +10135,7 @@ client.on('message',async msg => {
         if(tierttttttts===6)//foff 
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10478,7 +10478,7 @@ client.on('message',async msg => {
       if(tiiier===1)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10491,7 +10491,7 @@ client.on('message',async msg => {
       if(tiiier===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10503,7 +10503,7 @@ client.on('message',async msg => {
         }
         if(tiiier===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10515,7 +10515,7 @@ client.on('message',async msg => {
       }
         if(tiiier===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10527,7 +10527,7 @@ client.on('message',async msg => {
        }
         if(tiiier===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10540,7 +10540,7 @@ client.on('message',async msg => {
         if(tiiier===6)
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);  
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -10876,7 +10876,7 @@ client.on('message',async msg => {
         if(tiiiier===1)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);   
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -10889,7 +10889,7 @@ client.on('message',async msg => {
         if(tiiiier===2)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -10901,7 +10901,7 @@ client.on('message',async msg => {
           }
           if(tiiiier===3)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -10913,7 +10913,7 @@ client.on('message',async msg => {
         }
           if(tiiiier===4)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -10925,7 +10925,7 @@ client.on('message',async msg => {
          }
           if(tiiiier===5)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -10938,7 +10938,7 @@ client.on('message',async msg => {
           if(tiiiier===6)
           {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -11265,7 +11265,7 @@ client.on('message',async msg => {
           if(tiiiiier===1)
           {
             const stsr = msg.embeds[0].description;
-            let idbest=stsr.substring(31, 49);    
+            let idbest=stsr.substring(30, 48);   
             const r= new MessageEmbed()
             .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
             .setTimestamp()
@@ -11278,7 +11278,7 @@ client.on('message',async msg => {
           if(tiiiiier===2)
           {
             const stsr = msg.embeds[0].description;
-            let idbest=stsr.substring(31, 49);    
+            let idbest=stsr.substring(30, 48);    
             const r= new MessageEmbed()
             .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
             .setTimestamp()
@@ -11290,7 +11290,7 @@ client.on('message',async msg => {
             }
             if(tiiiiier===3)
           {const stsr = msg.embeds[0].description;
-            let idbest=stsr.substring(31, 49);    
+            let idbest=stsr.substring(30, 48);   
             const r= new MessageEmbed()
             .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
             .setTimestamp()
@@ -11302,7 +11302,7 @@ client.on('message',async msg => {
           }
             if(tiiiiier===4)
           {const stsr = msg.embeds[0].description;
-            let idbest=stsr.substring(31, 49);    
+            let idbest=stsr.substring(30, 48);     
             const r= new MessageEmbed()
             .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
             .setTimestamp()
@@ -11314,7 +11314,7 @@ client.on('message',async msg => {
            }
             if(tiiiiier===5)
           {const stsr = msg.embeds[0].description;
-            let idbest=stsr.substring(31, 49);    
+            let idbest=stsr.substring(30, 48);     
             const r= new MessageEmbed()
             .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
             .setTimestamp()
@@ -11327,7 +11327,7 @@ client.on('message',async msg => {
             if(tiiiiier===6)
             {
             const stsr = msg.embeds[0].description;
-            let idbest=stsr.substring(31, 49);    
+            let idbest=stsr.substring(30, 48);     
             const r= new MessageEmbed()
             .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
             .setTimestamp()
@@ -11657,7 +11657,7 @@ client.on('message',async msg => {
       if(tiiiiiier===1)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -11670,7 +11670,7 @@ client.on('message',async msg => {
       if(tiiiiiier===2)
       {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -11682,7 +11682,7 @@ client.on('message',async msg => {
         }
         if(tiiiiiier===3)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -11694,7 +11694,7 @@ client.on('message',async msg => {
       }
         if(tiiiiiier===4)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48); 
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -11706,7 +11706,7 @@ client.on('message',async msg => {
        }
         if(tiiiiiier===5)
       {const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);     
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -11719,7 +11719,7 @@ client.on('message',async msg => {
         if(tiiiiiier===6)
         {
         const stsr = msg.embeds[0].description;
-        let idbest=stsr.substring(31, 49);    
+        let idbest=stsr.substring(30, 48);   
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
@@ -12453,7 +12453,7 @@ client.on('message',async msg => {
         if(tiiiiiiier===1)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12466,7 +12466,7 @@ client.on('message',async msg => {
         if(tiiiiiiier===2)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12478,7 +12478,7 @@ client.on('message',async msg => {
           }
           if(tiiiiiiier===3)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12490,7 +12490,7 @@ client.on('message',async msg => {
         }
           if(tiiiiiiier===4)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12502,7 +12502,7 @@ client.on('message',async msg => {
          }
           if(tiiiiiiier===5)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12515,7 +12515,7 @@ client.on('message',async msg => {
           if(tiiiiiiier===6)
           {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);   
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12856,7 +12856,7 @@ client.on('message',async msg => {
         if(tiiiiiiiier===1)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12869,7 +12869,7 @@ client.on('message',async msg => {
         if(tiiiiiiiier===2)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);   
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12881,7 +12881,7 @@ client.on('message',async msg => {
           }
           if(tiiiiiiiier===3)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12893,7 +12893,7 @@ client.on('message',async msg => {
         }
           if(tiiiiiiiier===4)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);  
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12905,7 +12905,7 @@ client.on('message',async msg => {
          }
           if(tiiiiiiiier===5)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -12918,7 +12918,7 @@ client.on('message',async msg => {
           if(tiiiiiiiier===6)
           {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13258,7 +13258,7 @@ client.on('message',async msg => {
         if(tiiiiiiiiier===1)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13271,7 +13271,7 @@ client.on('message',async msg => {
         if(tiiiiiiiiier===2)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13283,7 +13283,7 @@ client.on('message',async msg => {
           }
           if(tiiiiiiiiier===3)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13295,7 +13295,7 @@ client.on('message',async msg => {
         }
           if(tiiiiiiiiier===4)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13307,7 +13307,7 @@ client.on('message',async msg => {
          }
           if(tiiiiiiiiier===5)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13320,7 +13320,7 @@ client.on('message',async msg => {
           if(tiiiiiiiiier===6)
           {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);   
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13661,7 +13661,7 @@ client.on('message',async msg => {
         if(tiiiiiiiiiier===1)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13674,7 +13674,7 @@ client.on('message',async msg => {
         if(tiiiiiiiiiier===2)
         {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13686,7 +13686,7 @@ client.on('message',async msg => {
           }
           if(tiiiiiiiiiier===3)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13698,7 +13698,7 @@ client.on('message',async msg => {
         }
           if(tiiiiiiiiiier===4)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13710,7 +13710,7 @@ client.on('message',async msg => {
          }
           if(tiiiiiiiiiier===5)
         {const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
@@ -13723,7 +13723,7 @@ client.on('message',async msg => {
           if(tiiiiiiiiiier===6)
           {
           const stsr = msg.embeds[0].description;
-          let idbest=stsr.substring(31, 49);    
+          let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
