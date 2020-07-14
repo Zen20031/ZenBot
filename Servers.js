@@ -5187,7 +5187,7 @@ client.on('message',async msg => {
     let x='711668385540472912';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiier===1)
       {
@@ -6003,7 +6003,7 @@ client.on('message',async msg => {
     let x='714046243445407774';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiertw===1)
       {const stsr = msg.embeds[0].description;
@@ -6312,7 +6312,7 @@ client.on('message',async msg => {
     let x='713344828464955442';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiert===1)
       {const stsr = msg.embeds[0].description;
@@ -6546,7 +6546,7 @@ client.on('message',async msg => {
     let x='714192110504378388';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tierts===1)
       {const stsr = msg.embeds[0].description;
@@ -6955,7 +6955,7 @@ client.on('message',async msg => {
     let x='714219136955449724';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiertss===1)
       {const stsr = msg.embeds[0].description;
@@ -7350,7 +7350,7 @@ client.on('message',async msg => {
     let x='714499741009969194';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiertsa===1)
       {const stsr = msg.embeds[0].description;
@@ -7588,7 +7588,7 @@ client.on('message',async msg => {
     let xyx='714016723317162036';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(stierts===1)
       {const stsr = msg.embeds[0].description;
@@ -8271,7 +8271,7 @@ client.on('message',async msg => {
     
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiertts===1)
       {const stsr = msg.embeds[0].description;
@@ -8512,7 +8512,7 @@ client.on('message',async msg => {
     
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tierttts===1)
       {const stsr = msg.embeds[0].description;
@@ -9002,7 +9002,7 @@ client.on('message',async msg => {
     
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiertttts===1)
       {const stsr = msg.embeds[0].description;
@@ -9244,7 +9244,7 @@ client.on('message',async msg => {
     
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tierttttts===1)
       {const stsr = msg.embeds[0].description;
@@ -9655,7 +9655,7 @@ client.on('message',async msg => {
     
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiertttttts===1)
       {const stsr = msg.embeds[0].description;
@@ -10069,7 +10069,7 @@ client.on('message',async msg => {
     
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tierttttttts===1)
       {const stsr = msg.embeds[0].description;
@@ -10473,7 +10473,7 @@ client.on('message',async msg => {
     let x='721459420671901827';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiiier===1)
       {
@@ -10871,7 +10871,7 @@ client.on('message',async msg => {
       let x='722433452988694569';
       if(typeof msg.embeds[0].title==='undefined')
       { 
-        if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+        if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
         {
         if(tiiiier===1)
         {
@@ -11260,7 +11260,7 @@ client.on('message',async msg => {
         let x='722829953212874782';
         if(typeof msg.embeds[0].title==='undefined')
         { 
-          if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+          if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
           {
           if(tiiiiier===1)
           {
@@ -11652,7 +11652,7 @@ client.on('message',async msg => {
     let x='724338393332449341';
     if(typeof msg.embeds[0].title==='undefined')
     { 
-      if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+      if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
       {
       if(tiiiiiier===1)
       {
@@ -12448,7 +12448,7 @@ client.on('message',async msg => {
       let x='724718274964750367';
       if(typeof msg.embeds[0].title==='undefined')
       { 
-        if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+        if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
         {
         if(tiiiiiiier===1)
         {
@@ -12851,7 +12851,7 @@ client.on('message',async msg => {
       let x='727416019408257024';
       if(typeof msg.embeds[0].title==='undefined')
       { 
-        if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+        if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
         {
         if(tiiiiiiiier===1)
         {
@@ -13253,7 +13253,7 @@ client.on('message',async msg => {
       let x='727801902670151721';
       if(typeof msg.embeds[0].title==='undefined')
       { 
-        if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+        if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
         {
         if(tiiiiiiiiier===1)
         {
@@ -13656,7 +13656,7 @@ client.on('message',async msg => {
       let x='731443028522172547';
       if(typeof msg.embeds[0].title==='undefined')
       { 
-        if(msg.embeds[0].description.startsWith('<:green:678796543679004697>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+        if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
         {
         if(tiiiiiiiiiier===1)
         {
