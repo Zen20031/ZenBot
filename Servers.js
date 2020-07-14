@@ -5196,7 +5196,7 @@ client.on('message',async msg => {
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
-        .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
+        .setDescription(`<@${idbest} has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#f2f2f2')
         tiier=0;
@@ -5209,7 +5209,7 @@ client.on('message',async msg => {
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
-        .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
+        .setDescription(`<@${idbest} has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#33cc33')
         tiier=0;
@@ -5221,7 +5221,7 @@ client.on('message',async msg => {
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
-        .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
+        .setDescription(`<@${idbest} has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#0099ff')
         tiier=0;
@@ -5233,7 +5233,7 @@ client.on('message',async msg => {
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
-        .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
+        .setDescription(`<@${idbest} has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#cc00ff')
         tiier=0;
@@ -5245,7 +5245,7 @@ client.on('message',async msg => {
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
-        .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
+        .setDescription(`<@${idbest} has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#ffff00')
         tiier=0;
