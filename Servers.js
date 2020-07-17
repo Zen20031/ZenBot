@@ -14240,7 +14240,7 @@ msg.reply("test")
   let reeeeeeeeeet;
   let nammessssssssssm;
   client.on('message',async msg => {
-    if((msg.channel.id==="708067370974838814") && (msg.author.id==="673362753489993749")){
+    if((msg.channel.id==="733350850420015146") && (msg.author.id==="673362753489993749")){
       if((msg.content.startsWith('Looks like nobody')) && (msg.author.id==="673362753489993749"))
       {let tr=0;
         if(tiiiiiiiiiiier===1)
