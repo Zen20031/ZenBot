@@ -4701,7 +4701,7 @@ if(message.content.startsWith(`Zen!quote`))
 
 ///welcomer
 client.on("guildMemberAdd", member=>{
-  const welcomeChannel = member.guild.channels.cache.find(channel=>channel.name==="sadadasdasdasd2132")
+  const welcomeChannel = member.guild.channels.cache.find(channel=>channel.name==="welcome-and-good-luck")
   try {
     //console.log(member.user.bot);
     //console.log(member.guild.memberCount)
@@ -15940,7 +15940,7 @@ msg.reply("test")
     
     
 //SERVER 1 FREEEEE
-  let tiiiiiiiiiiiiiiier=0; // NEOCUPAT
+  let tiiiiiiiiiiiiiiier=0; // OCUPAT!!!!!!! OCUPAT!!!!!!! OCUPAT!!!!!!! OCUPAT!!!!!!! OCUPAT!!!!!!! OCUPAT!!!!!!! 
   let reeeeeeeeeeeeeet;
   let nammessssssssssssssm;
   client.on('message',async msg => {
@@ -16336,16 +16336,18 @@ msg.reply("test")
     }) 
 
 
+
+
+
     
 
 
 
 
-
 /*
-       
+ 
 //SERVER 2 FREEEEE
-  let tiiiiiiiiiiiiiiiier=0; // NEOCUPAT
+  let tiiiiiiiiiiiiiiiier=0; // NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT 
   let reeeeeeeeeeeeeet;
   let nammessssssssssssssm;
   client.on('message',async msg => {
@@ -16738,7 +16740,4 @@ msg.reply("test")
       //console.log("WE HAVE A PROBLEM!!!");// if there are no embeds, this code won't run.
         });
       }
-    }) 
-
-
-    */
+    }) */
