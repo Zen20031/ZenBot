@@ -12207,7 +12207,7 @@ client.on('message',async msg => {
       { 
         if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
         //msg.delete(incercare)//stergem cartea by id
-        msg.channel.fetchMessage(incercare).then(msg.delete)
+        channel.fetchMessage(incercare).then(msg => msg.delete());
       }
   
   //logs!!!
