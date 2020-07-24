@@ -12203,13 +12203,6 @@ client.on('message',async msg => {
       if(typeof msg.embeds[0].title==='undefined')
       {return  
       }
-      if(typeof msg.embeds[0].title==='undefined')
-      { 
-        if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
-        //msg.delete(incercare)//stergem cartea by id
-        channel.fetchMessage(incercare).then(msg => msg.delete());
-      }
-  
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
       {  incercare=msg.id;
@@ -12233,6 +12226,7 @@ client.on('message',async msg => {
                          if(xp==0)
                        {clearInterval(myinterval);
                          message.delete();
+                         msg.delete();
                        }
                      }, 2000);
                      //clearInterval(myinterval);
@@ -12264,6 +12258,7 @@ client.on('message',async msg => {
                           if(xp==0)
                         {clearInterval(myinterval);
                           message.delete();
+                          msg.delete();
                         }
                       }, 2000);
                       //clearInterval(myinterval);
@@ -12294,6 +12289,7 @@ client.on('message',async msg => {
                           if(xp==0)
                         {clearInterval(myinterval);
                           message.delete();
+                          msg.delete();
                         }
                       }, 2000);
                       //clearInterval(myinterval);
@@ -18633,6 +18629,7 @@ msg.reply("test")
                          if(xp==0)
                        {clearInterval(myinterval);
                          message.delete();
+                        msg.delete();
                        }
                      }, 2000);
                      //clearInterval(myinterval);
@@ -18672,6 +18669,7 @@ msg.reply("test")
                           if(xp==0)
                         {clearInterval(myinterval);
                           message.delete();
+                         msg.delete();
                         }
                       }, 2000);
                       //clearInterval(myinterval);
@@ -18709,6 +18707,7 @@ msg.reply("test")
                           if(xp==0)
                         {clearInterval(myinterval);
                           message.delete();
+                         msg.delete();
                         }
                       }, 2000);
                       //clearInterval(myinterval);
