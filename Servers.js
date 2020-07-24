@@ -16347,7 +16347,7 @@ msg.reply("test")
 
  
 //SERVER 2 FREEEEE
-  let tiiiiiiiiiiiiiiiier=0; // NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT 
+  let tiiiiiiiiiiiiiiiier=0; // OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT 
   let reeeeeeeeeeeeeeet;
   let nammesssssssssssssssm;
   client.on('message',async msg => {
@@ -16752,7 +16752,7 @@ msg.reply("test")
 
 
     //SERVER 3 FREEEEE
-  let tiiiiiiiiiiiiiiiiier=0; // NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT 
+  let tiiiiiiiiiiiiiiiiier=0; // OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT
   let reeeeeeeeeeeeeeeet;
   let nammessssssssssssssssm;
   client.on('message',async msg => {
@@ -17172,13 +17172,13 @@ msg.reply("test")
 
 
 
-/*
+
      //SERVER 4 FREEEEE
   let tiiiiiiiiiiiiiiiiiier=0; // NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT NEOCUPAT 
   let reeeeeeeeeeeeeeeeet;
   let nammesssssssssssssssssm;
   client.on('message',async msg => {
-    if((msg.channel.id==="") && (msg.author.id==="673362753489993749")){
+    if((msg.channel.id==="687262898422284325") && (msg.author.id==="673362753489993749")){
       if((msg.content.startsWith('Looks like nobody')) && (msg.author.id==="673362753489993749"))
       {let tr=0;
         if(tiiiiiiiiiiiiiiiiiier===1)
@@ -17248,7 +17248,7 @@ msg.reply("test")
       }
     }
     msg.embeds.forEach(async embed => {
-      let x='';
+      let x='736184678205095998';
       if(typeof msg.embeds[0].title==='undefined')
       { 
         if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
@@ -17484,7 +17484,7 @@ msg.reply("test")
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#cc00ff')
          return reeeeeeeeeeeeeeeeet= await client.channels.cache.get(x).send(r);
-       // return  msge.channel.send("<@&>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
+       //return  msg.channel.send("<@&734735810288549938>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
        {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
@@ -17523,7 +17523,7 @@ msg.reply("test")
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#ffff00')
           reeeeeeeeeeeeeeeeet= await client.channels.cache.get(x).send(r);
-          return msg.channel.send("<@&>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
+          return msg.channel.send("<@&734735810288549938>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
         } 
       if(msg.embeds[0].title.includes('Tier: 6'))
       { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
@@ -17562,14 +17562,11 @@ msg.reply("test")
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#ea2222')
           reeeeeeeeeeeeeeeeet= await client.channels.cache.get(x).send(r);
-          return msg.channel.send("<@&>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
+          return msg.channel.send("<@&734735810288549938>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
         } 
       //console.log("WE HAVE A PROBLEM!!!");// if there are no embeds, this code won't run.
         });
       }
     }) 
-
-
-*/
 
 
