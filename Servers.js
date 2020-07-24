@@ -83,17 +83,17 @@ client.on('message', msg => {
       if((msg.content==='Zen!version') || (msg.content==='zen!version')){
         msg.channel.send(' 	__*Version 1.0.1*__');//+version
       }
-      if((msg.content==='Zen!porn') || (msg.content==='zen!porn')){
+      /*if((msg.content==='Zen!porn') || (msg.content==='zen!porn')){
         msg.channel.send(' 	__*no u*__');//+version
-      }
-      if((msg.content==='Zen!hentai') || (msg.content==='zen!hentai')){
+      }*/
+     /* if((msg.content==='Zen!hentai') || (msg.content==='zen!hentai')){
         if(msg.author.id==="500640226180464652")msg.channel.send(' 	__*SKYLIFE dont, get a life*__');
         if(msg.author.id==="542783710651482142")msg.channel.send(' 	__*engine go get a life*__');
         if(msg.author.id==="559201501394763782")msg.channel.send(' 	__*imagine being king lmao*__');
         if(msg.author.id==="561474791295680542")msg.channel.send(' 	__*griffs alt are not op, ban griff fr*__');
         else 
         msg.channel.send(' 	__*no u*__');//+version
-      }
+      }*/
       if((msg.content==='Zen!website') || (msg.content==='zen!website')){
         msg.channel.send('https://discordapp.com/developers/applications');
       }
