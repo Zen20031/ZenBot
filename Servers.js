@@ -87,6 +87,11 @@ client.on('message', msg => {
         msg.channel.send(' 	__*no u*__');//+version
       }
       if((msg.content==='Zen!hentai') || (msg.content==='zen!hentai')){
+        if(message.author.id==="500640226180464652")msg.channel.send(' 	__*SKYLIFE dont, get a life*__');
+        if(message.author.id==="542783710651482142")msg.channel.send(' 	__*engine go get a life*__');
+        if(message.author.id==="559201501394763782")msg.channel.send(' 	__*imagine being king lmao*__');
+        if(message.author.id==="561474791295680542")msg.channel.send(' 	__*griffs alt are not op, ban griff fr*__');
+        else 
         msg.channel.send(' 	__*no u*__');//+version
       }
       if((msg.content==='Zen!website') || (msg.content==='zen!website')){
