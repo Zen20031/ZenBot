@@ -12168,21 +12168,51 @@ client.on('message',async msg => {
   
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///LAST DESTINY
-  
+
 // 1000 Ways to Die ways die
 client.on('message',async msg => {
+  let incercare=0;
   //DESPAWN SERVER 1000 
     if((msg.channel.id==="709317413501403181") && (msg.author.id==="673362753489993749")){
     msg.embeds.forEach(async embed => {
       if(typeof msg.embeds[0].title==='undefined')
       {return  
       }
-        
+      if(typeof msg.embeds[0].title==='undefined')
+      { 
+        if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
+        //msg.delete(incercare)//stergem cartea by id
+        msg.channel.fetchMessage(incercare).then(msg.delete)
+      }
   
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
-      {  
+      {  incercare=msg.id;
         let xp=14;
        let myinterval;
        let ok=1;
@@ -12213,7 +12243,7 @@ client.on('message',async msg => {
       } 
      if(msg.embeds[0].title.includes('Tier: 2'))
       { 
-        
+        incercare=msg.id;
         let xp=14;
         let myinterval;
         let ok=1;
@@ -12242,7 +12272,9 @@ client.on('message',async msg => {
                     }
                   }
        if(msg.embeds[0].title.includes('Tier: 3'))
-       {let xp=14;
+       {
+        incercare=msg.id; 
+        let xp=14;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -12270,7 +12302,8 @@ client.on('message',async msg => {
                     }
                   }
        if(msg.embeds[0].title.includes('Tier: 4'))
-       {let xp=14;
+       {incercare=msg.id;
+         let xp=14;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -12298,7 +12331,7 @@ client.on('message',async msg => {
          } 
          }
       if(msg.embeds[0].title.includes('Tier: 5'))
-       {
+       {incercare=msg.id;
        msg.channel.send("<@&725690595515039815>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>") 
         let xp=14;
         let myinterval;
@@ -12328,7 +12361,8 @@ client.on('message',async msg => {
                     }
          } 
       if(msg.embeds[0].title.includes('Tier: 6'))
-      { msg.channel.send("<@&725690745952010260>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
+      { incercare=msg.id;
+        msg.channel.send("<@&725690745952010260>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
         let xp=14;
         let myinterval;
         let ok=1;
@@ -12367,6 +12401,16 @@ client.on('message',async msg => {
 
 
 
+
+
+
+
+
+
+
+
+
+    
 
 
 
