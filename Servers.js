@@ -18446,9 +18446,6 @@ msg.reply("test")
 
 
      //SERVER 8 FREEEEE  - timer
-     let tiiiiiiiiiiiiiiiiiiiiier=0; // OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT
-     let reeeeeeeeeeeeeeeeeeeet;
-     let nammessssssssssssssssssssm;
      client.on('message',async msg => {
        if((msg.channel.id==="725763109574148108") && (msg.author.id==="673362753489993749")){
        msg.embeds.forEach(async embed => {
