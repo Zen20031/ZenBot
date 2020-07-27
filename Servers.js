@@ -15293,6 +15293,7 @@ msg.reply("test")
                          if(xp==0)
                        {clearInterval(myinterval);
                          message.delete();
+                         msg.delete();
                        }
                      }, 2000);
                      //clearInterval(myinterval);
@@ -15332,6 +15333,7 @@ msg.reply("test")
                           if(xp==0)
                         {clearInterval(myinterval);
                           message.delete();
+                          msg.delete();
                         }
                       }, 2000);
                       //clearInterval(myinterval);
@@ -15369,6 +15371,7 @@ msg.reply("test")
                           if(xp==0)
                         {clearInterval(myinterval);
                           message.delete();
+                          msg.delete();
                         }
                       }, 2000);
                       //clearInterval(myinterval);
