@@ -8195,9 +8195,9 @@ client.on('message',async msg => {
 
 
 
-
+///////////////////////////////ELITE SQUAD ELITE SQUAD ELITE SQUAD ELITE SQUAD ELITE SQUAD ELITE SQUAD ELITE SQUAD ELITE SQUAD ELITE SQUAD///////////////////////////
 /////AICI AM RAMAS!!
-
+/*
 /////SERVER 16 ES elite Squad
 let tiertts=0;
 let retttts;
@@ -8436,7 +8436,7 @@ client.on('message',async msg => {
   }
 
 });
-
+*/
 
 ////AG BOT DUNGEON
 let tierttts=0;
