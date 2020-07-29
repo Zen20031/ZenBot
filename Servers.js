@@ -8382,7 +8382,7 @@ client.on('message',async msg => {
       .setFooter(`Server name: ${msg.guild.name}`)
         .setColor('#33cc33')
         return retttts= await client.channels.cache.get(x).send(r);}*/
-     if(msg.embeds[0].title.includes('Tier: 3'))
+    /* if(msg.embeds[0].title.includes('Tier: 3'))
       {
        msg.channel.send("<@&725794121658269737>  **E B I C** tier 3 spawned, go get it!") 
        tiertts=3;namess=msg.embeds[0].title;
@@ -8392,7 +8392,7 @@ client.on('message',async msg => {
       .setDescription(`${msg.embeds[0].title} has spawned!`)
       .setFooter(`Server name: ${msg.guild.name}`)
         .setColor('#0099ff')
-        return  retttts= await client.channels.cache.get(x).send(r);}
+        return  retttts= await client.channels.cache.get(x).send(r);}*/
      if(msg.embeds[0].title.includes('Tier: 4'))
      {tiertts=4;namess=msg.embeds[0].title;
       msg.channel.send("<@&725794121658269737>  **E B I C** tier 4 spawned, go get it!")
