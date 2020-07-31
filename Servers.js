@@ -5119,7 +5119,7 @@ let ret;
 let nammess;
 client.on('message',async msg => {
 //DESPAWN SERVER 1 DADDY'S CAVE
-  if((msg.channel.id==="700363955213959178") && (msg.author.id==="673362753489993749")){
+  if((msg.channel.id==="738561941337014303") && (msg.author.id==="673362753489993749")){
     if((msg.content.startsWith('Looks like nobody')) && (msg.author.id==="673362753489993749"))
     { let tr=0;
       if(tiier===1)
