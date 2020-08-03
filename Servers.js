@@ -22868,7 +22868,7 @@ msg.reply("test")
                 }
               }
               msg.embeds.forEach(async embed => {
-                let x='730612042733584484';
+                let x='737530195124420708'; 
                 if(typeof msg.embeds[0].title==='undefined')
                 { 
                   if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
