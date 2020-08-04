@@ -81,7 +81,7 @@ client.on('message', msg => {
     //commands for stuff      // If the message is "zen!avatar"
     if((msg.content.startsWith('Zen!idchannel')) || (msg.content.startsWith('zen!idchannel'))){
       let g='Zen!idchannel';
-      let args = message.content.substring(g.length).split(" ");
+      let args = msg.content.substring(g.length).split(" ");
       console.log(args[0]);//+version
       msg.channel.send(args[0]);
       console.log("test");//+version
