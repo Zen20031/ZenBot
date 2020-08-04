@@ -8694,7 +8694,7 @@ client.on('message',async msg => {
     }
 //logs!!!
     if(msg.embeds[0].title.includes('Tier: 1'))
-  {msg.channel.send("<@&740087343217639477> -T4 TEST <@&740087340411650118>-T5 TEST <@&737570525563322408>-T5 TEST");
+  {
       let xp=14;
       let myinterval;
       let ok=1;
