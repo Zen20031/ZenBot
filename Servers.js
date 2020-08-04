@@ -79,7 +79,14 @@ const disablersd = new Set();
 client.on('message', msg => {
 
     //commands for stuff      // If the message is "zen!avatar"
+    if((msg.content.startsWith('Zen!idchannel')) || (msg.content.startsWith('zen!idchannel'))){
+      let g='Zen!idchannel';
+      let args = message.content.substring(g.length).split(" ");
+      console.log(args[0]);//+version
+      msg.channel.send(args[0]);
+      console.log("test");//+version
       
+    }
       if((msg.content==='Zen!version') || (msg.content==='zen!version')){
         msg.channel.send(' 	__*Version 1.0.1*__');//+version
       }
