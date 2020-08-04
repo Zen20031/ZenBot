@@ -8783,7 +8783,8 @@ client.on('message',async msg => {
         } 
        }
      if(msg.embeds[0].title.includes('Tier: 4'))
-     {let xp=14;
+     {msg.channel.send("<@&740087343217639477> Hey, look at that! A tier 4 spawned! Go get it!");
+       let xp=14;
       let myinterval;
       let ok=1;
         if (ok===1) {
@@ -8812,7 +8813,8 @@ client.on('message',async msg => {
         }
       }
     if(msg.embeds[0].title.includes('Tier: 5'))
-     {let xp=14;
+     {msg.channel.send("<@&740087340411650118> Hey, look at that! A tier 5 spawned! Go get it!");
+       let xp=14;
       let myinterval;
       let ok=1;
         if (ok===1) {
@@ -8842,7 +8844,7 @@ client.on('message',async msg => {
      
         } 
     if(msg.embeds[0].title.includes('Tier: 6'))
-    { 
+    { msg.channel.send("<@&737570525563322408> Hey, look at that! A tier 5 spawned! Go get it!");
       let xp=14;
       let myinterval;
       let ok=1;
