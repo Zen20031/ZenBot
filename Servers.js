@@ -27,6 +27,7 @@ client.on("ready", () => {
   }); */
 });
 
+client.login(process.env.token);  
 //var hierf ="";
 var version ='1.0.1';
 const prefix ='!';
@@ -728,7 +729,7 @@ if(page===3)
 }
 
 
-message.channel.send(embed).then(msg=>{
+message.member.send(embed).then(msg=>{
 msg.react('⏪').then(r=>{
 msg.react('⏩')
 
@@ -4783,9 +4784,8 @@ if(msg.content.startsWith("as!asdasdasdcd")&& msg.author.id==="70110855699641151
 
 
 
-//client.login("");
-client.login(process.env.token); 
-   
+
+
 
 
 
