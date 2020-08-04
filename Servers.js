@@ -87,6 +87,9 @@ client.on('message', msg => {
       console.log("test");//+version
       
     }
+    if((msg.content==='Zen!idchannel') || (msg.content==='zen!idchannel')){
+      msg.channel.send('all good');//+version
+    }
       if((msg.content==='Zen!version') || (msg.content==='zen!version')){
         msg.channel.send(' 	__*Version 1.0.1*__');//+version
       }
