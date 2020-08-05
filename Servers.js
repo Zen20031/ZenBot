@@ -18524,7 +18524,7 @@ msg.reply("test")
                        }
                       }
           if(msg.embeds[0].title.includes('Tier: 3'))
-          {msg.channel.send("<@&740122679356424213>  **E B I C** tier 3 spawned, go get it :pog:")
+          {msg.channel.send("<@&740501062410174505>  **E B I C** tier 3 spawned, go get it :pog:")
             let xp=14;
            let myinterval;
            let ok=1;
@@ -18555,7 +18555,7 @@ msg.reply("test")
             
           }
           if(msg.embeds[0].title.includes('Tier: 4'))
-          {msg.channel.send("<@&731144847741943898>  **E B I C** tier 4 spawned, go get it :pog:") 
+          {msg.channel.send("<@&740501389717012581>  **E B I C** tier 4 spawned, go get it :pog:") 
             let xp=14;
            let myinterval;
            let ok=1;
@@ -18585,7 +18585,7 @@ msg.reply("test")
                        }
            }
          if(msg.embeds[0].title.includes('Tier: 5'))
-          {msg.channel.send("<@&731144936770109490>  **E B I C** tier 5 spawned, go get it :pog:")
+          {msg.channel.send("<@&740501613462028350>  **E B I C** tier 5 spawned, go get it :pog:")
             let xp=14;
            let myinterval;
            let ok=1;
@@ -18615,7 +18615,7 @@ msg.reply("test")
                        }
            } 
          if(msg.embeds[0].title.includes('Tier: 6'))
-         { msg.channel.send("<@&731144999353450610>  **E B I C** tier 6 spawned, go get it :pog:")
+         { msg.channel.send("<@&740501804646662144>  **E B I C** tier 6 spawned, go get it :pog:")
            let xp=14;
            let myinterval;
            let ok=1;
