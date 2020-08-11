@@ -3194,7 +3194,7 @@ const ala =message.mentions.users.first() || message.author;
     const avatarEmbed = new MessageEmbed()
     .setColor("RANDOM")
     .setDescription(`${message.author} **hugs** ${ala}!`)
-    .setImage("https://66.media.tumblr.com/291c8b98b219283f9e21927e7ef6c3f2/tumblr_mzscklfLYx1tptsy9o1_400.gifv")
+    .setImage("https://66.media.tumblr.com/291c8b98b219283f9e21927e7ef6c3f2/tumblr_mzscklfLYx1tptsy9o1_400.gif")
     message.channel.send(avatarEmbed);
 }
 if(k===12){
