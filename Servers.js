@@ -133,12 +133,23 @@ client.on('message', msg => {
         // Create the attachment using MessageAttachment
         // Send the attachment in the message channel
         msg.channel.send('I recommend you to try this server');
-        msg.channel.send('https://discord.gg/H9NtsVK');
+        msg.channel.send('https://discord.gg/9KXBZWt');
           // Create the attachment using MessageAttachment
         
           // Send the attachment in the message channel
           //msg.channel.send('https://media0.giphy.com/media/3oKIP8C4lSWT47ZBHW/giphy.gif?cid=ecf05e477c2f062d23c990a3166e27e666088daac5cdc780&rid=giphy.gif');
       }
+  if (msg.content === 'Zen!server') {
+        // Create the attachment using MessageAttachment
+        // Send the attachment in the message channel
+        msg.channel.send('I recommend you to try this server');
+        msg.channel.send('https://discord.gg/9KXBZWt');
+          // Create the attachment using MessageAttachment
+        
+          // Send the attachment in the message channel
+          //msg.channel.send('https://media0.giphy.com/media/3oKIP8C4lSWT47ZBHW/giphy.gif?cid=ecf05e477c2f062d23c990a3166e27e666088daac5cdc780&rid=giphy.gif');
+      }
+      
       
     
       if((msg.content==='Zen!info') || (msg.content === 'zen!info`')){
