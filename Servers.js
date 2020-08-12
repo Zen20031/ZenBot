@@ -807,7 +807,7 @@ message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" 
 // if member is a botadmin, display this too
 }
 if (message.content === "Zen!support") { // creates a command *help
-message.channel.send("https://discord.gg/r9zVPM"); // sends the embed box "embedhelpmember" to the chatif
+message.channel.send("https://discord.gg/9KXBZWt"); // sends the embed box "embedhelpmember" to the chatif
 // if member is a botadmin, display this too
 }
 if ((message.content === "Zen!vote") ||(message.content === "zen!vote")||(message.content === "Zen!votes")||(message.content === "zen!votes")) {
