@@ -154,7 +154,7 @@ client.on('message', msg => {
     //.setTimestamp()
     ///.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
   
-  msg.channel.send(exampleEmbed);
+  message.channel.send(exampleEmbed);
           // Create the attachment using MessageAttachment
         
           // Send the attachment in the message channel
@@ -184,7 +184,7 @@ client.on('message', msg => {
     //.setTimestamp()
     ///.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
   
-  msg.channel.send(exampleEmbed);
+  message.channel.send(exampleEmbed);
           //msg.channel.send('https://media0.giphy.com/media/3oKIP8C4lSWT47ZBHW/giphy.gif?cid=ecf05e477c2f062d23c990a3166e27e666088daac5cdc780&rid=giphy.gif');
       }
       
@@ -867,7 +867,7 @@ const exampleEmbed = new MessageEmbed()
     //.setTimestamp()
     ///.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
   
-  msg.channel.send(exampleEmbed);
+  message.channel.send(exampleEmbed);
 }
 if ((message.content === "Zen!vote") ||(message.content === "zen!vote")||(message.content === "Zen!votes")||(message.content === "zen!votes")) {
 message.delete()
