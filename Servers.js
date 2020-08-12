@@ -132,8 +132,29 @@ client.on('message', msg => {
       if (msg.content === 'Zen!rserver') {
         // Create the attachment using MessageAttachment
         // Send the attachment in the message channel
-        msg.channel.send('I recommend you to try this server');
-        msg.channel.send('https://discord.gg/9KXBZWt');
+        const exampleEmbed = new MessageEmbed()
+    .setColor('#0099ff')
+    .setTimestamp()
+    //.setTitle('Some title')
+    //.setURL('https://discord.js.org/')
+    .setAuthor("Daddy's Cave",`https://images-ext-1.discordapp.net/external/0QNcnGL22OmvL26aAqMswONQsz-PUfupOspHumKHZWY/%3Fsize%3D128/https/cdn.discordapp.com/icons/481735279418408962/a_f0d22c79f6055a7d92596d0f589a00f6.gif`,)
+    //.setDescription('Some description here')`node
+    .setThumbnail("https://images-ext-1.discordapp.net/external/0QNcnGL22OmvL26aAqMswONQsz-PUfupOspHumKHZWY/%3Fsize%3D128/https/cdn.discordapp.com/icons/481735279418408962/a_f0d22c79f6055a7d92596d0f589a00f6.gif")
+    //.addField('Version(beta)', version,true)
+    .setDescription("We are a small friendly community that loves late night anime streams,weekly movie streams,gaming together & throwing Giveaways and Events")
+    .setURL('https://discord.js.org/')
+    .setImage('https://cdn.discordapp.com/attachments/742627471379398727/743201691188330511/IMG_20200711_174305.jpg')
+    .addField("Support server", "[~Click here!~](https://discord.gg/9KXBZWt)",true)
+    .addField('Server Owner',`<@166678082151907328>`,true)
+    //.addField('Server owner',`${msg.guild.owner}`,true) 
+    //.addField('Bot id','710440020674347109',true)
+    //.addField('Server owner ID',`${msg.guild.ownerID}`,true) 
+    .setFooter('Made by ZenBot Developers', 'https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png');
+    //.setImage('https://i.imgur.com/wSTFkRM.png')
+    //.setTimestamp()
+    ///.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+  
+  msg.channel.send(exampleEmbed);
           // Create the attachment using MessageAttachment
         
           // Send the attachment in the message channel
@@ -141,12 +162,29 @@ client.on('message', msg => {
       }
   if (msg.content === 'Zen!server') {
         // Create the attachment using MessageAttachment
-        // Send the attachment in the message channel
-        msg.channel.send('I recommend you to try this server');
-        msg.channel.send('https://discord.gg/9KXBZWt');
-          // Create the attachment using MessageAttachment
-        
-          // Send the attachment in the message channel
+       const exampleEmbed = new MessageEmbed()
+    .setColor('#0099ff')
+    .setTimestamp()
+    //.setTitle('Some title')
+    //.setURL('https://discord.js.org/')
+    .setAuthor("Daddy's Cave",`https://images-ext-1.discordapp.net/external/0QNcnGL22OmvL26aAqMswONQsz-PUfupOspHumKHZWY/%3Fsize%3D128/https/cdn.discordapp.com/icons/481735279418408962/a_f0d22c79f6055a7d92596d0f589a00f6.gif`,)
+    //.setDescription('Some description here')`node
+    .setThumbnail("https://images-ext-1.discordapp.net/external/0QNcnGL22OmvL26aAqMswONQsz-PUfupOspHumKHZWY/%3Fsize%3D128/https/cdn.discordapp.com/icons/481735279418408962/a_f0d22c79f6055a7d92596d0f589a00f6.gif")
+    //.addField('Version(beta)', version,true)
+    .setDescription("We are a small friendly community that loves late night anime streams,weekly movie streams,gaming together & throwing Giveaways and Events")
+    .setURL('https://discord.js.org/')
+    .setImage('https://cdn.discordapp.com/attachments/742627471379398727/743201691188330511/IMG_20200711_174305.jpg')
+    .addField("Support server", "[~Click here!~](https://discord.gg/9KXBZWt)",true)
+    .addField('Server Owner',`<@166678082151907328>`,true)
+    //.addField('Server owner',`${msg.guild.owner}`,true) 
+    //.addField('Bot id','710440020674347109',true)
+    //.addField('Server owner ID',`${msg.guild.ownerID}`,true) 
+    .setFooter('Made by ZenBot Developers', 'https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png');
+    //.setImage('https://i.imgur.com/wSTFkRM.png')
+    //.setTimestamp()
+    ///.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+  
+  msg.channel.send(exampleEmbed);
           //msg.channel.send('https://media0.giphy.com/media/3oKIP8C4lSWT47ZBHW/giphy.gif?cid=ecf05e477c2f062d23c990a3166e27e666088daac5cdc780&rid=giphy.gif');
       }
       
@@ -807,8 +845,29 @@ message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" 
 // if member is a botadmin, display this too
 }
 if (message.content === "Zen!support") { // creates a command *help
-message.channel.send("https://discord.gg/9KXBZWt"); // sends the embed box "embedhelpmember" to the chatif
-// if member is a botadmin, display this too
+const exampleEmbed = new MessageEmbed()
+    .setColor('#0099ff')
+    .setTimestamp()
+    //.setTitle('Some title')
+    //.setURL('https://discord.js.org/')
+    .setAuthor("Daddy's Cave",`https://images-ext-1.discordapp.net/external/0QNcnGL22OmvL26aAqMswONQsz-PUfupOspHumKHZWY/%3Fsize%3D128/https/cdn.discordapp.com/icons/481735279418408962/a_f0d22c79f6055a7d92596d0f589a00f6.gif`,)
+    //.setDescription('Some description here')`node
+    .setThumbnail("https://images-ext-1.discordapp.net/external/0QNcnGL22OmvL26aAqMswONQsz-PUfupOspHumKHZWY/%3Fsize%3D128/https/cdn.discordapp.com/icons/481735279418408962/a_f0d22c79f6055a7d92596d0f589a00f6.gif")
+    //.addField('Version(beta)', version,true)
+    .setDescription("We are a small friendly community that loves late night anime streams,weekly movie streams,gaming together & throwing Giveaways and Events")
+    .setURL('https://discord.js.org/')
+    .setImage('https://cdn.discordapp.com/attachments/742627471379398727/743201691188330511/IMG_20200711_174305.jpg')
+    .addField("Support server", "[~Click here!~](https://discord.gg/9KXBZWt)",true)
+    .addField('Server Owner',`<@166678082151907328>`,true)
+    //.addField('Server owner',`${msg.guild.owner}`,true) 
+    //.addField('Bot id','710440020674347109',true)
+    //.addField('Server owner ID',`${msg.guild.ownerID}`,true) 
+    .setFooter('Made by ZenBot Developers', 'https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png');
+    //.setImage('https://i.imgur.com/wSTFkRM.png')
+    //.setTimestamp()
+    ///.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+  
+  msg.channel.send(exampleEmbed);
 }
 if ((message.content === "Zen!vote") ||(message.content === "zen!vote")||(message.content === "Zen!votes")||(message.content === "zen!votes")) {
 message.delete()
