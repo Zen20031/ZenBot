@@ -844,7 +844,7 @@ var embedhelpmember = new MessageEmbed() // sets a embed box to the variable emb
 message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
 // if member is a botadmin, display this too
 }
-if (message.content === "Zen!support"||message.content === "zen!support"||) { // creates a command *help
+if (message.content === "Zen!support"||message.content === "zen!support") { // creates a command *help
 const exampleEmbed = new MessageEmbed()
     .setColor('#0099ff')
     .setTimestamp()
