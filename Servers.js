@@ -5274,7 +5274,7 @@ client.on('message',async msg => {
         let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
-        .setTimestamp(msg.embeds[0].image.url)
+        .setTimestamp()
         .setThumbnail(tr)
         .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
