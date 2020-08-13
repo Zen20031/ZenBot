@@ -5196,7 +5196,7 @@ client.on('message',async msg => {
     if((msg.content.startsWith('Looks like nobody')) && (msg.author.id==="673362753489993749"))
     { let tr=0;
       if(tiier===1)
-    {
+    {tr=msg.embeds[0].image.url;
       const r= new MessageEmbed()
       .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
       .setTimestamp()
@@ -5274,7 +5274,8 @@ client.on('message',async msg => {
         let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
-        .setTimestamp()
+        .setTimestamp(msg.embeds[0].image.url)
+        .setThumbnail(tr)
         .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#f2f2f2')
