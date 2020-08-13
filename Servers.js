@@ -12261,6 +12261,214 @@ client.on('message',async msg => {
 
 
 
+///LAST DESTINY
+
+// 1000 Ways to Die ways die
+client.on('message',async msg => {
+  let incercare=0;
+  //DESPAWN SERVER 1000 
+    if((msg.channel.id==="716718839907352667") && (msg.author.id==="673362753489993749")){
+    msg.embeds.forEach(async embed => {
+      if(typeof msg.embeds[0].title==='undefined')
+      {return  
+      }
+  //logs!!!
+      if(msg.embeds[0].title.includes('Tier: 1'))
+      {  incercare=msg.id;
+        let xp=14;
+       let myinterval;
+       let ok=1;
+         if (ok===1) {
+           const r= new MessageEmbed()
+           .setDescription(`**Time remaining till despawns** ${xp}`)   
+             .setColor('#cccccc')
+            msg.channel.send(r)
+                 .then(message => { //clearInterval(myinterval);
+                     myinterval=setInterval(function() {
+                       //console.log(".")
+                      
+                       xp=xp-2;  
+                     const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+                         .setColor('#cccccc')
+                       message.edit(r)
+                         if(xp==0)
+                       {clearInterval(myinterval);
+                         message.delete();
+                       
+                       }
+                     }, 2000);
+                     //clearInterval(myinterval);
+                      
+                     })
+              }
+       
+      } 
+     if(msg.embeds[0].title.includes('Tier: 2'))
+      { 
+        incercare=msg.id;
+        let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#7aff8d')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#7aff8d')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+                  }
+       if(msg.embeds[0].title.includes('Tier: 3'))
+       {
+        incercare=msg.id; 
+        let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#58a0e3')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#58a0e3')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+                  }
+       if(msg.embeds[0].title.includes('Tier: 4'))
+       {incercare=msg.id;
+         let xp=14;
+         msg.channel.send("<@&743485251946283049>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#ad58e3')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#ad58e3')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+         } 
+         }
+      if(msg.embeds[0].title.includes('Tier: 5'))
+       {incercare=msg.id;
+       msg.channel.send("<@&74348530029428740>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>") 
+        let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#fff200')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#fff200')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+         } 
+      if(msg.embeds[0].title.includes('Tier: 6'))
+      { incercare=msg.id;
+        msg.channel.send("<@&743485326588117103>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
+        let xp=14;
+        let myinterval;
+        let ok=1;
+          if (ok===1) {
+            const r= new MessageEmbed()
+            .setDescription(`**Time remaining till despawns** ${xp}`)   
+              .setColor('#ea2222')
+             msg.channel.send(r)
+                  .then(message => { //clearInterval(myinterval);
+                      myinterval=setInterval(function() {
+                        //console.log(".")
+                       
+                        xp=xp-2;  
+                      const r= new MessageEmbed()
+             .setDescription(`**Time remaining till despawns** ${xp}`)   
+                          .setColor('#ea2222')
+                        message.edit(r)
+                          if(xp==0)
+                        {clearInterval(myinterval);
+                          message.delete();
+                        }
+                      }, 2000);
+                      //clearInterval(myinterval);
+                       
+                      })
+                    }
+                  }
+             });
+      }
+    });
+  
+  
+
+
+
+
+
+
+
+
 
 
 
