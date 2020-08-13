@@ -13922,7 +13922,7 @@ client.on('message',async msg => {
   let reeeeeeeeet;
   let nammesssssssssm;
   client.on('message',async msg => {
-    if((msg.channel.id==="656863131649441821") && (msg.author.id==="673362753489993749")){
+    if((msg.channel.id==="664103006987485195") && (msg.author.id==="673362753489993749")){
       if((msg.content.startsWith('Looks like nobody')) && (msg.author.id==="673362753489993749"))
       {let tr=0;
         if(tiiiiiiiiiier===1)
