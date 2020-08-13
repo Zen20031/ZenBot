@@ -12398,7 +12398,7 @@ client.on('message',async msg => {
          }
       if(msg.embeds[0].title.includes('Tier: 5'))
        {incercare=msg.id;
-       msg.channel.send("<@&74348530029428740>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>") 
+       msg.channel.send("<@&743485300294287420>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>") 
         let xp=14;
         let myinterval;
         let ok=1;
