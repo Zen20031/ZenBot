@@ -5189,6 +5189,7 @@ client.on("ready", () => {
 let tier=0;
 let tiier=0;
 let ret;
+let trt=0;
 let nammess;
 client.on('message',async msg => {
 //DESPAWN SERVER 1 DADDY'S CAVE
@@ -5196,7 +5197,7 @@ client.on('message',async msg => {
     if((msg.content.startsWith('Looks like nobody')) && (msg.author.id==="673362753489993749"))
     { let tr=0;
       if(tiier===1)
-    {tr=msg.embeds[0].image.url;
+    {
       const r= new MessageEmbed()
       .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
       .setTimestamp()
@@ -5275,7 +5276,7 @@ client.on('message',async msg => {
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
         .setTimestamp()
-        .setThumbnail(tr)
+        .setThumbnail(trt)
         .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#f2f2f2')
@@ -5288,6 +5289,7 @@ client.on('message',async msg => {
         let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setThumbnail(trt)
         .setTimestamp()
         .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
@@ -5300,6 +5302,7 @@ client.on('message',async msg => {
         let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setThumbnail(trt)
         .setTimestamp()
         .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
@@ -5312,6 +5315,7 @@ client.on('message',async msg => {
         let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setThumbnail(trt)
         .setTimestamp()
         .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
@@ -5324,6 +5328,7 @@ client.on('message',async msg => {
         let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setThumbnail(trt)
         .setTimestamp()
         .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
@@ -5337,6 +5342,7 @@ client.on('message',async msg => {
         let idbest=stsr.substring(30, 48);    
         const r= new MessageEmbed()
         .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
+        .setThumbnail(trt)
         .setTimestamp()
         .setDescription(`<@${idbest}> has claimed [${nammess}](${tr})`)
         .setFooter(`Server name: ${msg.guild.name}`)
@@ -5351,7 +5357,8 @@ client.on('message',async msg => {
 
 //logs!!!
     if(msg.embeds[0].title.includes('Tier: 1'))
-    { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+    { trt=msg.embeds[0].image.url;
+      tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
       let xp=14;
      let myinterval;
      let ok=1;
@@ -5389,7 +5396,7 @@ client.on('message',async msg => {
      ret= await client.channels.cache.get(x).send(r);
     } 
    if(msg.embeds[0].title.includes('Tier: 2'))
-    { 
+    { trt=msg.embeds[0].image.url;
       tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
       let xp=14;
       let myinterval;
@@ -5427,7 +5434,8 @@ client.on('message',async msg => {
         .setColor('#33cc33')
         return ret= await client.channels.cache.get(x).send(r);}
      if(msg.embeds[0].title.includes('Tier: 3'))
-     {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+     {trt=msg.embeds[0].image.url;
+       tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
        let xp=14;
       let myinterval;
       let ok=1;
@@ -5464,7 +5472,8 @@ client.on('message',async msg => {
         .setColor('#0099ff')
         return  ret= await client.channels.cache.get(x).send(r);}
      if(msg.embeds[0].title.includes('Tier: 4'))
-     {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+     {trt=msg.embeds[0].image.url;
+       tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
        let xp=14;
       let myinterval;
       let ok=1;
@@ -5504,7 +5513,8 @@ client.on('message',async msg => {
       return msg.channel.send("<@&727100057458966538>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
      }
     if(msg.embeds[0].title.includes('Tier: 5'))
-     {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+     {trt=msg.embeds[0].image.url;
+       tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
        let xp=14;
       let myinterval;
       let ok=1;
@@ -5543,7 +5553,8 @@ client.on('message',async msg => {
         console.log(`${msg.embeds[0].title} in server 1`);
         return msg.channel.send("<@&710524640161955840>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")} 
     if(msg.embeds[0].title.includes('Tier: 6'))
-    { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+    { trt=msg.embeds[0].image.url;
+      tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
       let xp=14;
       let myinterval;
       let ok=1;
