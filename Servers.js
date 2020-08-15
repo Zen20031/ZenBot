@@ -4824,32 +4824,7 @@ client.on('message', (msg) => {
 if(msg.content.startsWith(":green:"))
 {let argsst = msg.content.substring(preffs.length).split(" ");
 msg.channel.send(argsst[1]);
-}
-if(msg.content.startsWith("as!asdasdasdcd")&& msg.author.id==="701108556996411512")
-    { 
-   // msg.guild.cache.find.guil.leave()("582023149080543246").then(guild => {
-   //client.guild.cache.find("582023149080543246").then(guild => {
-    ///client.guilds.cache.find('582023149080543246').then(client.guild.leave())
-     
-    msg.guild.leave("703289205962571938")
-    
-    /*msg.guild.cache.find("582023149080543246").then(guild => {
-      client.guild.leave(guild)
-     }).catch(err => {
-     console.log(`there was an error leaving the guild: \n ${err.msg}`);
-     })*/
-     
-    
-  
-      //const stsr = msg.embeds[0].description;
-      //let idbest=msg.author.id;       
-      //const User = Client.User(idbest);
-     // console.log(User); 
-      //msg.channel.seng(User);
-     //client.channels.cache.get(p).send(`<@${idbest}> has claimed ${namess}|| test his nickname is ${User}`);
-      //let tttt=msg.embeds[0].description;
-     //tier=0;
-    } 
+}https://github.com/Zen20031/ZenBot/edit/master/Servers.js
 });
 
 
@@ -4866,18 +4841,6 @@ client.on('message', (msg) => {
   if((msg.content.startsWith("Zen!report"))||(msg.content.startsWith("zen!report")))
   { msg.reply("Your report has been submitted!")
     return client.channels.cache.get('710561366611591228').send("ok"); 
-  }
-  if(msg.content.startsWith("asdasdasdasd"))
-  {   
-    const r= new MessageEmbed()
-    .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
-    .setTimestamp()
-    .setDescription(`has claimed [asdad](https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id})`)
-    .setFooter(`Server name: ${msg.guild.name}`)
-      .setColor('#f2f2f2')
-    tiier=0;
-    msg.channel.send(r);
-  msg.channel.send(`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`)
   }
   });
 
