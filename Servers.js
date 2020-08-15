@@ -225,7 +225,7 @@ client.on('message', msg => {
           .setThumbnail('https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png')
           .addField('Version(beta)', version,true)
           .setURL('https://discord.js.org/')
-          .addField('Watching over',client.users.cache.size+' users', true)
+          .addField('Watching over',client.users.cache.size+' online users', true)
           .addField('Serving over',client.guilds.cache.size+' servers', true)
           //.addField('Bot id','698894048479674378')
           .addField('Bot life','active since  04.12.2020', true)
