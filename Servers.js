@@ -4819,14 +4819,6 @@ client.on("guildMemberAdd", member=>{
 
 
 
-const preffs=":green:";
-client.on('message', (msg) => {
-if(msg.content.startsWith(":green:"))
-{let argsst = msg.content.substring(preffs.length).split(" ");
-msg.channel.send(argsst[1]);
-}https://github.com/Zen20031/ZenBot/edit/master/Servers.js
-});
-
 
 
 
