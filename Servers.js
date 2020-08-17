@@ -7,7 +7,7 @@ const client = new Client({
   disableEveryone: true
 });
 //let ok=0;
-
+ 
 client.commands = new Collection();
 client.aliases = new Collection();
 
@@ -12689,7 +12689,7 @@ client.on('message',async msg => {
 
 
 
-
+///////////////////////////////////!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!////////////////////////////////////
 
   //AKIRI keep the corona out of this
   let tiiiiiiier=0;
@@ -12697,7 +12697,7 @@ client.on('message',async msg => {
   let nammessssssm;
   client.on('message',async msg => {
   //AKIRI
-    if((msg.channel.id==="701433483746344981") && (msg.author.id==="673362753489993749")){
+    if((msg.channel.id==="735381511762739200") && (msg.author.id==="673362753489993749")){
       if((msg.content.startsWith('Looks like nobody')) && (msg.author.id==="673362753489993749"))
       {if(tiiiiiiier===1)
       {
@@ -12766,81 +12766,84 @@ client.on('message',async msg => {
       }
     }
     msg.embeds.forEach(async embed => {
-      let x='724718274964750367';
+      let x='744914701896646767';
       if(typeof msg.embeds[0].title==='undefined')
       { 
         if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
         {
         if(tiiiiiiier===1)
-        {
+        {var aye = array.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
+          .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#f2f2f2')
           tiiiiiiier=0;
           reeeeeet.edit(r);   
         }
         if(tiiiiiiier===2)
-        {
+        {var aye = array.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
+          .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#33cc33')
           tiiiiiiier=0;
           reeeeeet.edit(r); 
           }
           if(tiiiiiiier===3)
-        {const stsr = msg.embeds[0].description;
+        {var aye = array.substring(70).split("#:");
+          const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
+          .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#0099ff')
           tiiiiiiier=0;
           reeeeeet.edit(r); 
         }
           if(tiiiiiiier===4)  
-        {const stsr = msg.embeds[0].description;
+        {var aye = array.substring(70).split("#:");
+          const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
+          .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#cc00ff')
           tiiiiiiier=0;
           reeeeeet.edit(r); 
          }
           if(tiiiiiiier===5)
-        {const stsr = msg.embeds[0].description;
+        {var aye = array.substring(70).split("#:");
+          const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
+          .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#ffff00')
           tiiiiiiier=0;
           reeeeeet.edit(r); 
          }
           if(tiiiiiiier===6)
-          {
+          {var aye = array.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);   
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
-          .setDescription(`<@${idbest}> has claimed [${nammessssssm}](${tr})`)
+          .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#ea2222')
           tiiiiiiier=0;
@@ -12854,7 +12857,6 @@ client.on('message',async msg => {
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
       {  tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
- 
         let xp=14;
        let myinterval;
        let ok=1;
@@ -12893,8 +12895,6 @@ client.on('message',async msg => {
       } 
      if(msg.embeds[0].title.includes('Tier: 2'))
       { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
- 
-        
         let xp=14;
         let myinterval;
         let ok=1;
@@ -13006,7 +13006,7 @@ client.on('message',async msg => {
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#cc00ff')
          reeeeeet= await client.channels.cache.get(x).send(r);
-        return  msg.channel.send("<@&726364426864951308>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
+        return  msg.channel.send("<@&744916014504083656>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
        {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
@@ -13046,7 +13046,7 @@ client.on('message',async msg => {
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#ffff00')
           reeeeeet= await client.channels.cache.get(x).send(r);
-          return msg.channel.send("<@&726362558998773762>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
+          return msg.channel.send("<@&744916018480283690>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
         } 
       if(msg.embeds[0].title.includes('Tier: 6'))
       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
@@ -13086,12 +13086,12 @@ client.on('message',async msg => {
         .setFooter(`Server name: ${msg.guild.name}`)
           .setColor('#ea2222')
           reeeeeet= await client.channels.cache.get(x).send(r);
-          return msg.channel.send("<@&726363940161847387>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
+          return msg.channel.send("<@&744916018480283690>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
         } 
       //console.log("WE HAVE A PROBLEM!!!");// if there are no embeds, this code won't run.
         });
       }
-    }) 
+    })  
 
 
 
