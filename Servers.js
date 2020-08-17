@@ -12773,7 +12773,8 @@ client.on('message',async msg => {
         if(msg.embeds[0].description.startsWith('<:green:731633597391569017>'))//msg.embeds[0].description.includes("got the card!") &&(tier===1))
         {
         if(tiiiiiiier===1)
-        {var aye = array.substring(70).split("#:");
+        {let  array1= msg.embeds[0].description;
+          var aye = array1.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
@@ -12787,7 +12788,8 @@ client.on('message',async msg => {
           reeeeeet.edit(r);   
         }
         if(tiiiiiiier===2)
-        {var aye = array.substring(70).split("#:");
+        {let  array1= msg.embeds[0].description;
+          var aye = array1.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
@@ -12801,7 +12803,8 @@ client.on('message',async msg => {
           reeeeeet.edit(r); 
           }
           if(tiiiiiiier===3)
-        {var aye = array.substring(70).split("#:");
+        {let  array1= msg.embeds[0].description;
+          var aye = array1.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
@@ -12815,7 +12818,8 @@ client.on('message',async msg => {
           reeeeeet.edit(r); 
         }
           if(tiiiiiiier===4)  
-        {var aye = array.substring(70).split("#:");
+        {let  array1= msg.embeds[0].description;
+          var aye = array1.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);     
           const r= new MessageEmbed()
@@ -12829,7 +12833,8 @@ client.on('message',async msg => {
           reeeeeet.edit(r); 
          }
           if(tiiiiiiier===5)
-        {var aye = array.substring(70).split("#:");
+        {let  array1= msg.embeds[0].description;
+          var aye = array1.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
@@ -12843,7 +12848,8 @@ client.on('message',async msg => {
           reeeeeet.edit(r); 
          }
           if(tiiiiiiier===6)
-          {var aye = array.substring(70).split("#:");
+          {let  array1= msg.embeds[0].description;
+            var aye = array1.substring(70).split("#:");
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);   
           const r= new MessageEmbed()
