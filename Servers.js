@@ -12695,6 +12695,7 @@ client.on('message',async msg => {
   let tiiiiiiier=0;
   let reeeeeet;
   let nammessssssm;
+  let trrt=0;
   client.on('message',async msg => {
   //AKIRI
     if((msg.channel.id==="735381511762739200") && (msg.author.id==="673362753489993749")){
@@ -12778,6 +12779,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
+          .setThumbnail(trrt)
           .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#f2f2f2')
@@ -12791,6 +12793,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
+          .setThumbnail(trrt)
           .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#33cc33')
@@ -12804,6 +12807,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
+          .setThumbnail(trrt)
           .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#0099ff')
@@ -12817,6 +12821,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
+          .setThumbnail(trrt)
           .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#cc00ff')
@@ -12830,6 +12835,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
+          .setThumbnail(trrt)
           .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#ffff00')
@@ -12843,6 +12849,7 @@ client.on('message',async msg => {
           const r= new MessageEmbed()
           .setAuthor(`${msg.author.username}`,msg.author.avatarURL())
           .setTimestamp()
+          .setThumbnail(trrt)
           .setDescription(`<@${idbest}> has claimed [${nammess}](${tr}) v${aye[1]}`)
           .setFooter(`Server name: ${msg.guild.name}`)
             .setColor('#ea2222')
@@ -12856,7 +12863,8 @@ client.on('message',async msg => {
   
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
-      {  tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+      { trrt=msg.embeds[0].image.url; 
+        tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
         let xp=14;
        let myinterval;
        let ok=1;
@@ -12894,7 +12902,8 @@ client.on('message',async msg => {
        reeeeeet= await client.channels.cache.get(x).send(r);
       } 
      if(msg.embeds[0].title.includes('Tier: 2'))
-      { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+      { trrt=msg.embeds[0].image.url;
+        tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
         let xp=14;
         let myinterval;
         let ok=1;
@@ -12931,7 +12940,8 @@ client.on('message',async msg => {
           .setColor('#33cc33')
           return reeeeeet= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
-       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+       {trrt=msg.embeds[0].image.url;
+         tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
  
          let xp=14;
         let myinterval;
@@ -13009,7 +13019,8 @@ client.on('message',async msg => {
         return  msg.channel.send("<@&744916014504083656>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
-       {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+       {trrt=msg.embeds[0].image.url;
+         tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
  
          let xp=14;
         let myinterval;
@@ -13049,7 +13060,8 @@ client.on('message',async msg => {
           return msg.channel.send("<@&744916018480283690>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
         } 
       if(msg.embeds[0].title.includes('Tier: 6'))
-      {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
+      {trrt=msg.embeds[0].image.url;
+        tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
  
          let xp=14;
         let myinterval;
