@@ -7926,4 +7926,4 @@ msg.reply("test")
   }
 })
  */
- client.login("NzEwNDQwMDIwNjc0MzQ3MTA5.Xr0e1A.neJGgYiJuJVTgUWfAkCypR9Lmh4");
+ client.login(process.env.token);
