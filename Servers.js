@@ -26,7 +26,7 @@ client.on("ready", () => {
       }
   }); */
 });
-client.login(process.token.env);  
+client.login(process.env.token);  
 //var hierf ="";
 var version ='1.0.1';
 const prefix ='!';
