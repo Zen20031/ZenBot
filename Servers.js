@@ -2,7 +2,6 @@ const { Client, Collection, Discord,MessageEmbed, EmbedBuilder, MessageAttachmen
 const { config } = require('dotenv');
 const weather = require ('weather-js');
 
-
 const client = new Client({
   disableEveryone: true
 });
