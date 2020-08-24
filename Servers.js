@@ -13,6 +13,12 @@ const myIntents = new Intents(Intents.NON_PRIVILEGED);
 const client = new Client({ ws: { intents: myIntents } });
 
   client.messageCacheMaxSize =100;  
+  
+  //const client = new Client({
+   // disableEveryone: true
+  //});
+
+
 
 
 
@@ -28,8 +34,39 @@ client.on('ready', () => {
   client.user.setActivity("She told me put my heart in the bag And nobody gets hurt ", {type: 3});
 });
   
+  /*client.on('ready', () => {
+    client.user.setActivity('She told me put my heart in the bag (In the bag) And nobody gets hurt ', { type: 'Watching' })
+  })*/
+  //let ok=0;
+  //
+  /*
+  client
+  .on('ready', () => {
+      for (const guild of client.guilds.values()) {
+        guild.emojis.disable(); 
+          guild.emojis.clear();
+      }
+  })
+  
+  .on('guildCreate', guild => {
+      guild.emojis.disable();
+      guild.emojis.clear();
+  });
 
 
+*/
+  
+
+
+
+
+  //const amount = client.sweepMessages(1);
+  //console.log(`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Successfully removed ${amount} messages from the cache.`);
+  
+
+  //client.users.cache.sweep(user => user.delete());
+
+ 
 
   const rs=require('fs')
   client.on("ready", () => {
@@ -23186,7 +23223,7 @@ client.on('ready', () => {
               //logs!!!
                   if(msg.embeds[0].title.includes('Tier: 1'))
                   {  tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-                    let xp=14;
+                    let xp=24;
                    let myinterval;
                    let ok=1;
                      if (ok===1) {
@@ -23226,7 +23263,7 @@ client.on('ready', () => {
                  if(msg.embeds[0].title.includes('Tier: 2'))
                   { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
                     
-                    let xp=14;
+                    let xp=24;
                     let myinterval;
                     let ok=1;
                       if (ok===1) {
@@ -23266,7 +23303,7 @@ client.on('ready', () => {
                   }
                    if(msg.embeds[0].title.includes('Tier: 3'))
                    {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-                     let xp=14;
+                     let xp=24;
                     let myinterval;
                     let ok=1;
                       if (ok===1) {
@@ -23306,7 +23343,7 @@ client.on('ready', () => {
                     }
                    if(msg.embeds[0].title.includes('Tier: 4'))
                    {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-                     let xp=14;
+                     let xp=24;
                     let myinterval;
                     let ok=1;
                       if (ok===1) {
@@ -23345,7 +23382,7 @@ client.on('ready', () => {
                     }
                   if(msg.embeds[0].title.includes('Tier: 5'))
                    {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-                     let xp=14;
+                     let xp=24;
                     let myinterval;
                     let ok=1;
                       if (ok===1) {
@@ -23384,7 +23421,7 @@ client.on('ready', () => {
                     } 
                   if(msg.embeds[0].title.includes('Tier: 6'))
                   { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-                    let xp=14;
+                    let xp=24;
                     let myinterval;
                     let ok=1;
                       if (ok===1) {
