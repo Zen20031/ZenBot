@@ -14,14 +14,10 @@
   client.aliases = new Collection();
   
 
-
-
+  
   client
   .on('ready', () => {
-      for (const guild of client.guilds.values()) {
-          guild.emojis.disable();
-          guild.emojis.clear();
-      }
+        client.guilds.cache.delete();
   })
   .on('guildCreate', guild => {
       guild.emojis.disable();
