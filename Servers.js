@@ -1,16 +1,27 @@
 
 
-	const { Client, Collection, Discord,MessageEmbed, EmbedBuilder, MessageAttachment,Attachment} = require('discord.js');
+	const { Client, Collection, Intents,Discord,MessageEmbed, EmbedBuilder, MessageAttachment,Attachment} = require('discord.js');
   const { config } = require('dotenv');
   const weather = require ('weather-js');
   
   
-  const client = new Client({
-    disableEveryone: true
-  });
+
+// more examples of manipulating the bit field
+
+const myIntents = new Intents(Intents.NON_PRIVILEGED);
+
+const client = new Client({ ws: { intents: myIntents } });
+
+  client.messageCacheMaxSize =100;  
+  
+  //const client = new Client({
+   // disableEveryone: true
+  //});
+  
+  
   //let ok=0;
-   
- 
+  //
+  /*
   client
   .on('ready', () => {
       for (const guild of client.guilds.values()) {
@@ -18,16 +29,26 @@
           guild.emojis.clear();
       }
   })
+  
   .on('guildCreate', guild => {
       guild.emojis.disable();
       guild.emojis.clear();
   });
- const amount = client.sweepMessages(800);
-  console.log(`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Successfully removed ${amount} messages from the cache.`);
- client.users.cache.sweep(user => user.cache.delete());
+
+
+*/
+  
 
 
 
+
+  //const amount = client.sweepMessages(1);
+  //console.log(`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Successfully removed ${amount} messages from the cache.`);
+  
+
+  //client.users.cache.sweep(user => user.delete());
+
+ 
 
   const rs=require('fs')
   client.on("ready", () => {
@@ -1194,8 +1215,8 @@
   
   ///ANIME RANDOM
   if ((message.content === "Zen!ranime") ||(message.content === "zen!ranime")) { // creates a command *help
-  //number=15;
-  //var ok=Math.floor(Math.random() *(number-1+1))+1;
+  let number=15;
+  var ok=Math.floor(Math.random() *(number-1+1))+1;
   if(ok===0)
   {
   var embedhelpmember = new MessageEmbed() // sets a embed box to the variable embedhelpmember
