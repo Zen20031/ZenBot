@@ -16,6 +16,19 @@
 
 
 
+  client
+  .on('ready', () => {
+      for (const guild of client.guilds.values()) {
+          guild.emojis.disable();
+          guild.emojis.clear();
+      }
+  })
+  .on('guildCreate', guild => {
+      guild.emojis.disable();
+      guild.emojis.clear();
+  });
+
+
 
 
 
