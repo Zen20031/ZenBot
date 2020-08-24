@@ -10,8 +10,7 @@
   });
   //let ok=0;
    
-  const amount = client.sweepMessages(800);
-  console.log(`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Successfully removed ${amount} messages from the cache.`);
+ 
   client
   .on('ready', () => {
       for (const guild of client.guilds.values()) {
@@ -23,7 +22,9 @@
       guild.emojis.disable();
       guild.emojis.clear();
   });
-
+ const amount = client.sweepMessages(800);
+  console.log(`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Successfully removed ${amount} messages from the cache.`);
+ client.users.cache.sweep(user => user.cache.delete());
 
 
 
