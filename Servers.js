@@ -13,7 +13,12 @@
   client.commands = new Collection();
   client.aliases = new Collection();
   
-  
+
+
+
+
+
+
   const rs=require('fs')
   client.on("ready", () => {
     
@@ -28,7 +33,7 @@
         }
     }); */
   });
-  client.login(process.env.token);  
+  client.login("process.env.token");  
   //var hierf ="";
   var version ='1.0.1';
   const prefix ='!';
@@ -59,13 +64,14 @@
   
   }, 100000)*/
     // This event triggers when the bot joins a guild.
-    ///client.user.setActivity(`Serving ${client.guilds.size} servers`);
-    //console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users.`);
-    //client.user.setActivity("on Discord|Zen!help")
-    client.user.setActivity(`over ${client.users.cache.size}  users!💻`, { type: 'WATCHING' });
+    client.user.setStatus("It's never easy to walk away"); //, let her go It'll be okay It's gonna hurt for a bit of time So bottoms up, let's forget tonight");
+   //client.user.setActivity(`Serving ${client.guilds.size} servers`);
+                                 //console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users.`);
+                //client.user.setActivity("on Discord|Zen!help")
+    //client.user.setActivity(`over ${client.users.cache.size}  users!💻`, { type: 'WATCHING' });
   });
   
-  
+
   
   
   
@@ -2724,9 +2730,7 @@
   
   
   
-  
-  
-  https://cdn.discordapp.com/avatars/673362753489993749/0e6ecd5dd65c56a058a43c8556cc8f57.png?size=1024
+
   
   ///BOT AVATAR https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png
   if(message.content==="Zen!myavatar"){client.user.setAvatar("https://cdn.discordapp.com/attachments/704229400484380673/705831697005936640/2Q.png")}});
@@ -4501,7 +4505,7 @@
     const prefix="Z!anime";
           let args = message.content.substring(prefix.length).split(" ");
    let search=args.join(" ");
-   console.log(search)
+   
    //var search = message.content.split(/\s+/g).slice(1).join(" ");
    //var search= message.content; 
   
@@ -5045,9 +5049,9 @@
         { 
           array= msg.embeds[0].description;
           var aye = array.substring(70).split("#:");
-          console.log(aye);
-          console.log(array)
-          console.log(aye[1]);
+          //console.log(aye);
+          //console.log(array)
+          ///console.log(aye[1]);
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48); 
           const r= new MessageEmbed()
@@ -5063,9 +5067,9 @@
         if(tiier===2)
         {array= msg.embeds[0].description;
           var aye = array.substring(70).split("#:");
-          console.log(aye);
-          console.log(array)
-          console.log(aye[1]);
+         // console.log(aye);
+         /// console.log(array)
+          ///console.log(aye[1]);
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
@@ -5081,9 +5085,7 @@
           if(tiier===3)
         {array= msg.embeds[0].description;
           var aye = array.substring(70).split("#:");
-          console.log(aye);
-          console.log(array)
-          console.log(aye[1]);
+         
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
@@ -5099,9 +5101,7 @@
           if(tiier===4)
         {array= msg.embeds[0].description;
           var aye = array.substring(70).split("#:");
-          console.log(aye);
-          console.log(array)
-          console.log(aye[1]);
+        
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
@@ -5117,9 +5117,7 @@
           if(tiier===5)
         {array= msg.embeds[0].description;
           var aye = array.substring(70).split("#:");
-          console.log(aye);
-          console.log(array)
-          console.log(aye[1]);
+          
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
@@ -5135,9 +5133,7 @@
           if(tiier===6)
           {array= msg.embeds[0].description;
             var aye = array.substring(70).split("#:");
-            console.log(aye);
-            console.log(array)
-            console.log(aye[1]);
+           
           const stsr = msg.embeds[0].description;
           let idbest=stsr.substring(30, 48);    
           const r= new MessageEmbed()
@@ -5159,7 +5155,7 @@
       if(msg.embeds[0].title.includes('Tier: 1'))
       { trt=msg.embeds[0].image.url;
         tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-        let xp=14;
+        let xp=24;
        let myinterval;
        let ok=1;
          if (ok===1) {
@@ -5198,7 +5194,7 @@
      if(msg.embeds[0].title.includes('Tier: 2'))
       { trt=msg.embeds[0].image.url;
         tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -5236,7 +5232,7 @@
        if(msg.embeds[0].title.includes('Tier: 3'))
        {trt=msg.embeds[0].image.url;
          tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -5274,7 +5270,7 @@
        if(msg.embeds[0].title.includes('Tier: 4'))
        {trt=msg.embeds[0].image.url;
          tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -5315,7 +5311,7 @@
       if(msg.embeds[0].title.includes('Tier: 5'))
        {trt=msg.embeds[0].image.url;
          tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -5355,7 +5351,7 @@
       if(msg.embeds[0].title.includes('Tier: 6'))
       { trt=msg.embeds[0].image.url;
         tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6300,7 +6296,7 @@
   
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
-      { let xp=14;
+      { let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6344,7 +6340,7 @@
       
      if(msg.embeds[0].title.includes('Tier: 2'))
       { 
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6383,7 +6379,7 @@
           return retts= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
        { 
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6421,7 +6417,7 @@
           return  retts= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 4'))
        {
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6461,7 +6457,7 @@
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
        {
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6500,7 +6496,7 @@
           console.log(`${msg.embeds[0].title} in server 9`);
           return msg.channel.send("<@&725191216588652604> **E B I C** tier 5 spawned, go get it ")} 
       if(msg.embeds[0].title.includes('Tier: 6'))
-      {let xp=14;
+      {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6710,7 +6706,7 @@
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
       { //  msg.channel.send("<@&712685088143441961>  **E B I C** tier 1 spawned, go get it||Test SORRY FOR PING(TESTING THE PING) ")
-      let xp=14;
+      let xp=24;
        let myinterval;
        let ok=1;
          if (ok===1) {
@@ -6748,7 +6744,7 @@
       }
       
      if(msg.embeds[0].title.includes('Tier: 2'))
-      { let xp=14;
+      { let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6784,7 +6780,7 @@
           .setColor('#33cc33')
           return rettss= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
-       { let xp=14;
+       { let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6819,7 +6815,7 @@
           .setColor('#0099ff')
           return  rettss= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 4'))
-       {let xp=14;
+       {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6856,7 +6852,7 @@
           return rettss= await client.channels.cache.get(x).send(r);
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
-       {let xp=14;
+       {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -6894,7 +6890,7 @@
           //return msg.channel.send("<@&712685088143441961>  **E B I C** tier 5 spawned, go get it ")
         } 
       if(msg.embeds[0].title.includes('Tier: 6'))
-      { let xp=14;
+      { let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -7103,7 +7099,7 @@
       if(msg.embeds[0].title.includes('Tier: 1'))
       { 
         
-        let xp=14;
+        let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7157,7 +7153,7 @@
      if(msg.embeds[0].title.includes('Tier: 2'))
       { 
         
-        let xp=14;
+        let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7197,7 +7193,7 @@
        if(msg.embeds[0].title.includes('Tier: 3'))
        {   
         
-        let xp=14;
+        let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7236,7 +7232,7 @@
        if(msg.embeds[0].title.includes('Tier: 4'))
        {
         
-        let xp=14;
+        let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7276,7 +7272,7 @@
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
        {
-        let xp=14;
+        let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7316,7 +7312,7 @@
           return msg.channel.send("<@&714019450193707068>  **E B I C** tier 5 spawned, go get it ")} 
       if(msg.embeds[0].title.includes('Tier: 6'))
       { 
-        let xp=14;
+        let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7387,7 +7383,7 @@
         if(typeof msg.embeds[0].title==='undefined')
         {return }
         if(msg.embeds[0].title.includes('Tier: 1'))
-        { let xp=14;
+        { let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7416,7 +7412,7 @@
             }
         } 
        if(msg.embeds[0].title.includes('Tier: 2'))
-        {let xp=14;
+        {let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7454,7 +7450,7 @@
             client.channels.cache.get(x).send(r);
           }
           if(msg.embeds[0].title.includes('Tier: 3'))
-         {let xp=14;
+         {let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7492,7 +7488,7 @@
             client.channels.cache.get(x).send(r);
           }
          if(msg.embeds[0].title.includes('Tier: 4'))
-         {let xp=14;
+         {let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7531,7 +7527,7 @@
             client.channels.cache.get(x).send(r);
         }
         if(msg.embeds[0].title.includes('Tier: 5'))
-         {let xp=14;
+         {let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -7571,7 +7567,7 @@
             return msg.channel.send("<@&711941632773324810> Hey, look at that! A tier 5 spawned! Go get it!");  
           } 
         if(msg.embeds[0].title.includes('Tier: 6'))
-        {let xp=14;
+        {let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -8116,7 +8112,7 @@
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
     {
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8148,7 +8144,7 @@
       }
       
      if(msg.embeds[0].title.includes('Tier: 2'))
-      {let xp=14;
+      {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8176,7 +8172,7 @@
                  
           } }
        if(msg.embeds[0].title.includes('Tier: 3'))
-       {  let xp=14;
+       {  let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8206,7 +8202,7 @@
          }
        if(msg.embeds[0].title.includes('Tier: 4'))
        {msg.channel.send("<@&740087343217639477> Hey, look at that! A tier 4 spawned! Go get it!");
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8236,7 +8232,7 @@
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
        {msg.channel.send("<@&740087340411650118> Hey, look at that! A tier 5 spawned! Go get it!");
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8267,7 +8263,7 @@
           } 
       if(msg.embeds[0].title.includes('Tier: 6'))
       { msg.channel.send("<@&737570525563322408> Hey, look at that! A tier 5 spawned! Go get it!");
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8760,7 +8756,7 @@
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
       {//msg.channel.send("<:sakura:716256348878143498> <@&719596460600983635> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8801,7 +8797,7 @@
       
      if(msg.embeds[0].title.includes('Tier: 2'))
       {msg.channel.send("<:sakura:716256348878143498> <@&719596460600983635> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8839,7 +8835,7 @@
           return rettttttts= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
        { msg.channel.send("<:sakura:716256348878143498> <@&719596418007957606> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8876,7 +8872,7 @@
           return  rettttttts= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 4'))
        {msg.channel.send("<:sakura:716256348878143498> <@&719596349733077134> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8917,7 +8913,7 @@
       if(msg.embeds[0].title.includes('Tier: 5'))
        {msg.channel.send("<:sakura:716256348878143498> <@&719596279516102724> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
          
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -8958,7 +8954,7 @@
       if(msg.embeds[0].title.includes('Tier: 6'))
       {msg.channel.send("<:sakura:716256348878143498> <@&719596173899595940> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
          
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9171,7 +9167,7 @@
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
       {//msg.channel.send("<:sakura:716256348878143498> <@&719596460600983635> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9212,7 +9208,7 @@
       
      if(msg.embeds[0].title.includes('Tier: 2'))
       {//msg.channel.send("<:sakura:716256348878143498> <@&697522565618597938> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9250,7 +9246,7 @@
           return retttttttts= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
        { //msg.channel.send("<:sakura:716256348878143498> <@&697522565618597938> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9287,7 +9283,7 @@
           return  retttttttts= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 4'))
        {msg.channel.send("<:sakura:716256348878143498> <@&697522565618597938> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9328,7 +9324,7 @@
       if(msg.embeds[0].title.includes('Tier: 5'))
        {msg.channel.send("<:sakura:716256348878143498> <@&697522565618597938> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
          
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9370,7 +9366,7 @@
       {
         msg.channel.send("<:sakura:716256348878143498> <@&697522565618597938> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
          
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9585,7 +9581,7 @@
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
       {//msg.channel.send("<:sakura:716256348878143498> <@&719596460600983635> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9626,7 +9622,7 @@
       
      if(msg.embeds[0].title.includes('Tier: 2'))
       {//msg.channel.send("<:sakura:716256348878143498> <@&697522565618597938> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9664,7 +9660,7 @@
           return rettttttttts= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
        { //msg.channel.send("<:sakura:716256348878143498> <@&697522565618597938> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9701,7 +9697,7 @@
           return  rettttttttts= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 4'))
        {msg.channel.send("<:sakura:716256348878143498> <@&697522565618597938> **card just spawned.** Be the one to catch it! <:sakura:716256348878143498>")
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9742,7 +9738,7 @@
       if(msg.embeds[0].title.includes('Tier: 5'))
        {
         msg.channel.send("<@&703567974291734548> Hey, look at that! A tier 5 spawned! Go get it!");  
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9783,7 +9779,7 @@
       if(msg.embeds[0].title.includes('Tier: 6'))
       {
         msg.channel.send("<@&703567974291734548> Hey, look at that! A tier 6 spawned! Go get it!");  
-         let xp=14;
+         let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -9991,7 +9987,7 @@
       if(msg.embeds[0].title.includes('Tier: 1'))
       {   //msg.channel.send("<@&721457437399449620>  **E B I C** tier 1 spawned, go get it(TEST!) <:pog:699999258547322950>") 
     
-        let xp=14;
+        let xp=24;
        let myinterval;
        let ok=1;
          if (ok===1) {
@@ -10030,7 +10026,7 @@
      if(msg.embeds[0].title.includes('Tier: 2'))
       { 
         
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -10066,7 +10062,7 @@
           .setColor('#33cc33')
           return reet= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
-       {let xp=14;
+       {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -10102,7 +10098,7 @@
           .setColor('#0099ff')
           return  reet= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 4'))
-       {let xp=14;
+       {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -10140,7 +10136,7 @@
           return reet= await client.channels.cache.get(x).send(r);
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
-       {let xp=14;
+       {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -10178,7 +10174,7 @@
           console.log(`${msg.embeds[0].title} in server 1`);
           return msg.channel.send("<@&721469677271908502>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")} 
       if(msg.embeds[0].title.includes('Tier: 6'))
-      { let xp=14;
+      { let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -10388,7 +10384,7 @@
     //logs!!!
         if(msg.embeds[0].title.includes('Tier: 1'))
         {  
-          let xp=14;
+          let xp=24;
          let myinterval;
          let ok=1;
            if (ok===1) {
@@ -10427,7 +10423,7 @@
        if(msg.embeds[0].title.includes('Tier: 2'))
         { 
           
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -10463,7 +10459,7 @@
             .setColor('#33cc33')
             return reeet= await client.channels.cache.get(x).send(r);}
          if(msg.embeds[0].title.includes('Tier: 3'))
-         {let xp=14;
+         {  let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -10499,7 +10495,7 @@
             .setColor('#0099ff')
             return  reeet= await client.channels.cache.get(x).send(r);}
          if(msg.embeds[0].title.includes('Tier: 4'))
-         {let xp=14;
+         {  let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -10536,7 +10532,7 @@
             return reeet= await client.channels.cache.get(x).send(r);
           }
         if(msg.embeds[0].title.includes('Tier: 5'))
-         {let xp=14;
+        {let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -10573,7 +10569,7 @@
             reeet= await client.channels.cache.get(x).send(r);
             return } 
         if(msg.embeds[0].title.includes('Tier: 6'))
-        { let xp=14;
+        { let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -10777,7 +10773,7 @@
       //logs!!!
           if(msg.embeds[0].title.includes('Tier: 1'))
           {  
-            let xp=14;
+            let xp=24;
            let myinterval;
            let ok=1;
              if (ok===1) {
@@ -10816,7 +10812,7 @@
          if(msg.embeds[0].title.includes('Tier: 2'))
           { 
             
-            let xp=14;
+            let xp=24;
             let myinterval;
             let ok=1;
               if (ok===1) {
@@ -10852,7 +10848,7 @@
               .setColor('#33cc33')
               return reeeet= await client.channels.cache.get(x).send(r);}
            if(msg.embeds[0].title.includes('Tier: 3'))
-           {let xp=14;
+           {let xp=24;
             let myinterval;
             let ok=1;
               if (ok===1) {
@@ -10888,7 +10884,7 @@
               .setColor('#0099ff')
               return  reeeet= await client.channels.cache.get(x).send(r);}
            if(msg.embeds[0].title.includes('Tier: 4'))
-           {let xp=14;
+           {let xp=24;
             let myinterval;
             let ok=1;
               if (ok===1) {
@@ -10925,7 +10921,7 @@
               return reeeet= await client.channels.cache.get(x).send(r);
             }
           if(msg.embeds[0].title.includes('Tier: 5'))
-           {let xp=14;
+           {let xp=24;
             let myinterval;
             let ok=1;
               if (ok===1) {
@@ -10962,7 +10958,7 @@
               reeeet= await client.channels.cache.get(x).send(r);
               return } 
           if(msg.embeds[0].title.includes('Tier: 6'))
-          { let xp=14;
+          { let xp=24;
             let myinterval;
             let ok=1;
               if (ok===1) {
@@ -11169,7 +11165,7 @@
   //logs!!!
       if(msg.embeds[0].title.includes('Tier: 1'))
       {  
-        let xp=14;
+        let xp=24;
        let myinterval;
        let ok=1;
          if (ok===1) {
@@ -11208,7 +11204,7 @@
      if(msg.embeds[0].title.includes('Tier: 2'))
       { 
         
-        let xp=14;
+        let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -11244,7 +11240,7 @@
           .setColor('#33cc33')
           return reeeeet= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 3'))
-       {let xp=14;
+       {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -11280,7 +11276,7 @@
           .setColor('#0099ff')
           return  reeeeet= await client.channels.cache.get(x).send(r);}
        if(msg.embeds[0].title.includes('Tier: 4'))
-       {let xp=14;
+       {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -11318,7 +11314,7 @@
         return  msg.channel.send("<@&724332574654333026>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
         }
       if(msg.embeds[0].title.includes('Tier: 5'))
-       {let xp=14;
+       {let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -11356,7 +11352,7 @@
           return msg.channel.send("<@&724332649354887210>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>")   
         } 
       if(msg.embeds[0].title.includes('Tier: 6'))
-      { let xp=14;
+      { let xp=24;
         let myinterval;
         let ok=1;
           if (ok===1) {
@@ -11626,7 +11622,7 @@
     //logs!!!
         if(msg.embeds[0].title.includes('Tier: 1'))
         {  incercare=msg.id;
-          let xp=14;
+          let xp=24;
          let myinterval;
          let ok=1;
            if (ok===1) {
@@ -11658,7 +11654,7 @@
        if(msg.embeds[0].title.includes('Tier: 2'))
         { 
           incercare=msg.id;
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -11689,7 +11685,7 @@
          if(msg.embeds[0].title.includes('Tier: 3'))
          {
           incercare=msg.id; 
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -11719,7 +11715,7 @@
                     }
          if(msg.embeds[0].title.includes('Tier: 4'))
          {incercare=msg.id;
-           let xp=14;
+           let xp=24;
            msg.channel.send("<@&743485251946283049>  **E B I C** tier 4 spawned, go get it <:pog:699999258547322950>") 
           let myinterval;
           let ok=1;
@@ -11750,7 +11746,7 @@
         if(msg.embeds[0].title.includes('Tier: 5'))
          {incercare=msg.id;
          msg.channel.send("<@&743485300294287420>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>") 
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -11780,7 +11776,7 @@
         if(msg.embeds[0].title.includes('Tier: 6'))
         { incercare=msg.id;
           msg.channel.send("<@&743485326588117103>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -11841,7 +11837,7 @@
     //logs!!!
         if(msg.embeds[0].title.includes('Tier: 1'))
         {  incercare=msg.id;
-          let xp=14;
+          let xp=24;
          let myinterval;
          let ok=1;
            if (ok===1) {
@@ -11873,7 +11869,7 @@
        if(msg.embeds[0].title.includes('Tier: 2'))
         { 
           incercare=msg.id;
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -11904,7 +11900,7 @@
          if(msg.embeds[0].title.includes('Tier: 3'))
          {
           incercare=msg.id; 
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -11934,7 +11930,7 @@
                     }
          if(msg.embeds[0].title.includes('Tier: 4'))
          {incercare=msg.id;
-           let xp=14;
+           let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -11964,7 +11960,7 @@
         if(msg.embeds[0].title.includes('Tier: 5'))
          {incercare=msg.id;
          msg.channel.send("<@&725690595515039815>  **E B I C** tier 5 spawned, go get it <:pog:699999258547322950>") 
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -11994,7 +11990,7 @@
         if(msg.embeds[0].title.includes('Tier: 6'))
         { incercare=msg.id;
           msg.channel.send("<@&725690745952010260>  **E B I C** tier 6 spawned, go get it <:pog:699999258547322950>") 
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -12230,7 +12226,7 @@
         if(msg.embeds[0].title.includes('Tier: 1'))
         { trrt=msg.embeds[0].image.url; 
           tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-          let xp=14;
+          let xp=24;
          let myinterval;
          let ok=1;
            if (ok===1) {
@@ -17681,7 +17677,7 @@
        //logs!!!
            if(msg.embeds[0].title.includes('Tier: 1'))
            { 
-             let xp=14;
+             let xp=24;
             let myinterval;
             let ok=1;
               if (ok===1) {
@@ -17712,7 +17708,7 @@
            } 
           if(msg.embeds[0].title.includes('Tier: 2'))
            { 
-             let xp=14;
+             let xp=24;
              let myinterval;
              let ok=1;
                if (ok===1) {
@@ -17742,7 +17738,7 @@
                         }
             if(msg.embeds[0].title.includes('Tier: 3'))
             {msg.channel.send("<@&731143728214835271>  **E B I C** tier 3 spawned, go get it :pog:")
-              let xp=14;
+              let xp=24;
              let myinterval;
              let ok=1;
                if (ok===1) {
@@ -17773,7 +17769,7 @@
             }
             if(msg.embeds[0].title.includes('Tier: 4'))
             {msg.channel.send("<@&731144847741943898>  **E B I C** tier 4 spawned, go get it :pog:") 
-              let xp=14;
+              let xp=24;
              let myinterval;
              let ok=1;
                if (ok===1) {
@@ -17803,7 +17799,7 @@
              }
            if(msg.embeds[0].title.includes('Tier: 5'))
             {msg.channel.send("<@&731144936770109490>  **E B I C** tier 5 spawned, go get it :pog:")
-              let xp=14;
+              let xp=24;
              let myinterval;
              let ok=1;
                if (ok===1) {
@@ -17833,7 +17829,7 @@
              } 
            if(msg.embeds[0].title.includes('Tier: 6'))
            { msg.channel.send("<@&731144999353450610>  **E B I C** tier 6 spawned, go get it :pog:")
-             let xp=14;
+             let xp=24;
              let myinterval;
              let ok=1;
                if (ok===1) {
@@ -18033,7 +18029,7 @@
     //logs!!!
         if(msg.embeds[0].title.includes('Tier: 1'))
         {  tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-          let xp=14;
+          let xp=24;
          let myinterval;
          let ok=1;
            if (ok===1) {
@@ -18073,7 +18069,7 @@
        if(msg.embeds[0].title.includes('Tier: 2'))
         { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
           
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -18111,7 +18107,7 @@
             return reeeeeeeeeeeeeeeeeeeet= await client.channels.cache.get(x).send(r);}
          if(msg.embeds[0].title.includes('Tier: 3'))
          {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-           let xp=14;
+           let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -18149,7 +18145,7 @@
             return  reeeeeeeeeeeeeeeeeeeet= await client.channels.cache.get(x).send(r);}
          if(msg.embeds[0].title.includes('Tier: 4'))
          {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-           let xp=14;
+           let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -18188,7 +18184,7 @@
           }
         if(msg.embeds[0].title.includes('Tier: 5'))
          {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-           let xp=14;
+           let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -18227,7 +18223,7 @@
           } 
         if(msg.embeds[0].title.includes('Tier: 6'))
         { tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -23009,6 +23005,13 @@
                 }) 
          
   
+
+                 
+
+
+
+
+               //LEAVE OR NOT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     //SERVER 21 FREEEEE////////////////////// 2NDDD
                 let tiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiier=0; // OCUPAT OCUPAT OCUPAT OCUPAT OCUPAT
               let reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeet;
@@ -23605,7 +23608,7 @@
         if(msg.embeds[0].title.includes('Tier: 1'))
         { trrrt=msg.embeds[0].image.url; 
           tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-          let xp=14;
+          let xp=24;
          let myinterval;
          let ok=1;
            if (ok===1) {
@@ -23644,7 +23647,7 @@
        if(msg.embeds[0].title.includes('Tier: 2'))
         { trrrt=msg.embeds[0].image.url;
           tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
-          let xp=14;
+          let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -23683,7 +23686,7 @@
          {trrrt=msg.embeds[0].image.url;
            tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
    
-           let xp=14;
+           let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -23721,7 +23724,7 @@
          if(msg.embeds[0].title.includes('Tier: 4'))
          {tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
    
-           let xp=14;
+           let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -23762,7 +23765,7 @@
          {trrrt=msg.embeds[0].image.url;
            tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
    
-           let xp=14;
+           let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
@@ -23803,7 +23806,7 @@
         {trrrt=msg.embeds[0].image.url;
           tr=`https://discord.com/channels/${msg.guild.id}/${msg.channel.id}/${msg.id}`;
    
-           let xp=14;
+           let xp=24;
           let myinterval;
           let ok=1;
             if (ok===1) {
