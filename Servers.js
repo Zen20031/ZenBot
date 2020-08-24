@@ -17,7 +17,7 @@
   
   client
   .on('ready', () => {
-        client.guilds.cache.delete();
+        client.guilds.cache.remove();
   })
   .on('guildCreate', guild => {
       guild.emojis.disable();
