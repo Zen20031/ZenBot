@@ -46,7 +46,7 @@
         }
     }); */
   });
-  client.login("process.env.token");  
+  client.login(process.env.token);  
   //var hierf ="";
   var version ='1.0.1';
   const prefix ='!';
