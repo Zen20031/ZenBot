@@ -17,8 +17,26 @@ const client = new Client({ ws: { intents: myIntents } });
   //const client = new Client({
    // disableEveryone: true
   //});
+
+
+
+
+
+
+
+ 
+client.on('ready', () => {
+  console.log("Activity OK")
+  //CHANGE {type: 2} in 
+  //1 FOR PLAYING
+  //2 FOR LISTENING
+  //3 FOR WATCHING
+  client.user.setActivity("She told me put my heart in the bag And nobody gets hurt ", {type: 3});
+});
   
-  
+  /*client.on('ready', () => {
+    client.user.setActivity('She told me put my heart in the bag (In the bag) And nobody gets hurt ', { type: 'Watching' })
+  })*/
   //let ok=0;
   //
   /*
@@ -73,7 +91,7 @@ const client = new Client({ ws: { intents: myIntents } });
 
   var i=1;
   
-  client.on("ready", () => {
+  //client.on("ready", () => {
   /*
     let statuses = [
       //////${client.guilds.cache.size} 
@@ -94,12 +112,12 @@ const client = new Client({ ws: { intents: myIntents } });
   
   }, 100000)*/
     // This event triggers when the bot joins a guild.
-    client.user.setStatus("It's never easy to walk away"); //, let her go It'll be okay It's gonna hurt for a bit of time So bottoms up, let's forget tonight");
+    //client.user.setStatus("It's never easy to walk away"); //, let her go It'll be okay It's gonna hurt for a bit of time So bottoms up, let's forget tonight");
    //client.user.setActivity(`Serving ${client.guilds.size} servers`);
                                  //console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users.`);
                 //client.user.setActivity("on Discord|Zen!help")
     //client.user.setActivity(`over ${client.users.cache.size}  users!💻`, { type: 'WATCHING' });
-  });
+  //});
   
 
   
@@ -917,7 +935,7 @@ const client = new Client({ ws: { intents: myIntents } });
       .setAuthor(user.tag,user.avatarURL())
       .setDescription("**Avatar**")
       //msg.author.avatarURL()
-      .setImage(user.avatarURL({ format: 'gif', dynamic: true, size: 1024 }))
+      .setImage(user.avatarURL({ format: 'jpg', dynamic: true, size: 1024 }))
   message.channel.send(avatarEmbed);
   }
   
