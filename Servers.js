@@ -10,14 +10,13 @@
   });
   //let ok=0;
    
-  client.commands = new Collection();
-  client.aliases = new Collection();
-  
-
   
   client
   .on('ready', () => {
-        client.guilds.cache.remove();
+      for (const guild of client.guilds.values()) {
+        guild.emojis.disable(); 
+          guild.emojis.clear();
+      }
   })
   .on('guildCreate', guild => {
       guild.emojis.disable();
@@ -46,10 +45,9 @@
   //var hierf ="";
   var version ='1.0.1';
   const prefix ='!';
-  client.commands = new Collection();
-  client.aliases = new Collection();
+ 
   
-  
+
   var i=1;
   
   client.on("ready", () => {
@@ -896,7 +894,7 @@
       .setAuthor(user.tag,user.avatarURL())
       .setDescription("**Avatar**")
       //msg.author.avatarURL()
-      .setImage(`${user.avatarURL()}`);
+      .setImage(user.avatarURL({ format: 'gif', dynamic: true, size: 1024 }))
   message.channel.send(avatarEmbed);
   }
   
